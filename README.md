@@ -4,8 +4,6 @@
 
 This isn't a generic link collection. Every item here has been used, tested, or verified by builders who make costumes for conventions. If something is expensive, we say so. If something has a cheaper alternative that works, we list it.
 
-**Maintained by [Costumary](https://www.costumary.com)**, the craft build journal for serious makers.
-
 ---
 
 ## Contents
@@ -149,7 +147,7 @@ For duplicating parts, making smooth props, or mass-producing accessories.
 | [SKS Props](https://www.sksprops.com) | EVA foam, tools, kits | US | High-density foam options, bulk discounts. |
 | [Worbla](https://www.worbla.com) | Thermoplastic sheets | Germany (US distributors) | Order from a US distributor to save on shipping. |
 | [Lumin's Workshop](https://www.luminsworkshop.com) | Foam clay, tools, tutorials | UK/US | Lumina Clay is the foam clay community standard. |
-| [Cosplay Fabricator](https://www.cosplayfabricator.com) | Pre-cut foam kits, patterns | US | Good if you don't want to pattern from scratch. |
+| [Bronavaro](https://bronavaro.com/) | EVA foam patterns, pepakura PDO files | EU | Downloadable armor patterns. Good if you don't want to draft from scratch. |
 
 ### General Craft and Hardware
 
@@ -229,16 +227,41 @@ Add these when you're ready for cleaner builds.
 - **Weathering** - Dry-brush silver on edges for wear, wash brown/black into crevices for grime. The 20-minute step that makes foam look like metal.
 
 **Learn from:**
-- [Kamui Cosplay](https://www.kamuicosplay.com/tutorials/) - The best foam armor tutorials on the internet. Books and free YouTube videos.
+- [Kamui Cosplay](https://www.kamuicosplay.com/books/) - The best foam armor tutorials on the internet. Books and free YouTube videos.
 - [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) - Clear, practical foam tutorials. No fluff.
 - [Punished Props Academy](https://www.youtube.com/@PunishedProps) - Prop building, foam, resin, 3D printing.
 
 ### Sewing for Costumes
 
-- **Seam types** - Straight stitch for most seams, zigzag for stretch fabrics, French seams for visible insides.
-- **Interfacing** - Fusible interfacing adds structure to floppy fabric. Use it on collars, cuffs, and structured bodices.
-- **Pattern fitting** - Always make a muslin (test garment) first in cheap fabric. Fix the fit on the muslin, not your real fabric.
-- **Closures** - Hidden zippers for clean lines, snaps for removable pieces, Velcro for quick changes.
+Sewn construction is half of most cosplays and deserves as much attention as armor. Even "armor builds" need undersuits, tabards, belts, and pouches.
+
+**Fundamentals:**
+
+- **Seam types** - Straight stitch for woven fabrics, zigzag or stretch stitch for knits, French seams for exposed insides (capes, unlined garments), flat-felled seams for strength (belts, straps).
+- **Interfacing** - Fusible interfacing adds structure to floppy fabric. Use it on collars, cuffs, structured bodices, and any edge that needs to hold a shape. Woven interfacing for woven fabrics, knit interfacing for stretch.
+- **Pattern fitting** - Always make a muslin (test garment) in cheap fabric first. Fix the fit on the muslin, not your real fabric. This saves $20-50 in wasted good fabric per project.
+- **Closures** - Hidden zippers for clean lines, snaps for removable pieces, Velcro for quick changes at cons, hook-and-eye for tight-fitting bodices. Invisible zippers are easier than they look.
+
+**Fabric handling tips:**
+
+- **Pre-wash** everything except faux leather and specialty fabrics. Fabric shrinks. Better to find out before you cut.
+- **Grainline matters.** Cut with the grain or your garment will twist and hang wrong. The grainline arrow on your pattern exists for a reason.
+- **Use clips, not pins** on faux leather, vinyl, and PVC. Pin holes are permanent.
+- **Walking foot** for velvet, faux fur, leather, and anything that creeps. $20-30 attachment, prevents layers from shifting.
+- **Ballpoint/stretch needles** for spandex, jersey, and any knit. Universal needles will skip stitches and poke holes.
+
+**Pattern sources:**
+
+- [McCall's](https://somethingdelightful.com/mccalls/) / [Simplicity](https://www.simplicity.com/) / [Butterick](https://somethingdelightful.com/butterick/) - The "Big 4." Costume pattern lines with fantasy, historical, and character-adjacent designs. Wait for $1.99 sales.
+- [Yaya Han patterns](https://somethingdelightful.com/mccalls/yaya-han-cosplay) (McCall's line) - Cosplay-specific patterns: bodysuits, corsets, capes, armor-compatible garments.
+- [Closet Core Patterns](https://closetcorepatterns.com/) - Indie patterns with excellent instructions. Good for garment-based costumes.
+- [Kinpatsu Cosplay patterns](https://kinpatsucosplay.com/) - Cosplay-specific patterns for bodysuits, armor underlayers, and accessories.
+- [Mood Sewciety](https://www.moodfabrics.com/blog/) - Free patterns and sewing tutorials from Mood Fabrics.
+
+**Learn from:**
+- [Kinpatsu Cosplay](https://www.youtube.com/@KinpatsuCosplay) - Best YouTube channel for cosplay sewing. Covers bodysuits, structured garments, and fabric selection.
+- [Seamwork](https://www.seamwork.com/) - Sewing magazine with technique articles and patterns. Not cosplay-specific but excellent fundamentals.
+- [r/sewing](https://www.reddit.com/r/sewing/) - Active community for troubleshooting and project sharing.
 
 ### Painting and Finishing
 
@@ -277,9 +300,10 @@ Add these when you're ready for cleaner builds.
 | [Punished Props Academy](https://www.youtube.com/@PunishedProps) | Props, foam, 3D printing, resin | Covers everything. Good for prop-specific builds. |
 | [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) | Foam armor, patterns, techniques | Practical, no-nonsense tutorials. Great for beginners. |
 | [Kinpatsu Cosplay](https://www.youtube.com/@KinpatsuCosplay) | Wigs, fabric, armor, full builds | Versatile. Covers sewing, wig styling, and armor equally well. |
-| [KamuiCosplay](https://www.youtube.com/@KamuiCos) | Armor, book walkthroughs | Deep dives into specific builds with cost and time breakdowns. |
 | [Odin Makes](https://www.youtube.com/@OdinMakes) | Simple builds with basic tools | Shows you what's possible without expensive equipment. |
 | [Lightning Cosplay](https://www.youtube.com/@LightningCosplay) | LED integration, electronics | Best channel for learning cosplay electronics. |
+| [Cowbutt Crunchies Cosplay](https://www.youtube.com/@CowbuttCrunchies) | Sewing, patterning, bodysuits | Excellent for sewn costume construction and draping. |
+| [Dangerous Ladies](https://www.youtube.com/@DangerousLadies) | Sewn costumes, historical garments | Deep sewing technique focused on costume accuracy. |
 
 ### Books
 
@@ -326,7 +350,10 @@ Typical cost ranges by build complexity:
 - Shipping for specialty materials: $8-20
 - Con travel, hotel, badge: $200-600
 
-**Free budget estimator:** [Costumary Budget Calculator](https://www.costumary.com/tools/budget-calculator) - Pre-loaded templates for armor, sewn, and mixed builds with real material prices.
+**Free budget tools:**
+- [Costumary Budget Calculator](https://www.costumary.com/tools/budget-calculator) - Pre-loaded templates for armor, sewn, and mixed builds with real material prices. No account needed.
+- [CostumeCalc](https://www.costumecalc.com/) - Fabric and foam calculators for estimating material quantities.
+- [AgentCalc Cosplay Planner](https://agentcalc.com/cosplay-costume-planner) - Schedule and budget planning tool.
 
 ### Convention Checklists
 
@@ -344,7 +371,10 @@ Typical cost ranges by build complexity:
 - [ ] Business cards or social media handle cards (for photo credits)
 - [ ] Clear bag for valuables (many cons require clear bags now)
 
-**Free interactive checklist:** [Costumary Con Checklist](https://www.costumary.com/tools/con-checklist)
+**Checklists and packing lists:**
+- [Costumary Con Checklist](https://www.costumary.com/tools/con-checklist) - Interactive, saves state between uses.
+- [CosplayTutorial Packing Checklist](https://www.cosplaytutorial.com/tools/checklist.php) - Printable checklist covering costumes, repair kits, and personal items.
+- [Midnight Pumpkin Survival Kit](https://midnightpumpkinblog.com/2025/01/10/cosplay-convention-survival-kit-essentials-for-your-travel-bag/) - Blog post with a thorough breakdown of what to pack and why.
 
 ### Commission Pricing
 
@@ -361,31 +391,46 @@ If you make costumes for others, price these factors:
 
 **Common mistake:** Pricing materials only and forgetting labor. A $200 commission that took 40 hours pays $5/hour before materials.
 
-**Free commission calculator:** [Costumary Commission Calculator](https://www.costumary.com/tools/commission-calculator)
+**Commission pricing resources:**
+- [Costumary Commission Calculator](https://www.costumary.com/tools/commission-calculator) - Input hours, materials, overhead, and platform fees to get a recommended price.
+- [Beetlecat Originals commission terms](https://www.beetlecatoriginals.com/commissions) - Real-world example of professional commission pricing, timelines, and workflow from a fursuit maker.
+- [Etsy seller fees breakdown](https://www.etsy.com/legal/fees/) - Understand the ~13% total take before pricing on Etsy.
 
 ### Planning Tools
 
-- [Costumary](https://www.costumary.com) - Reference boards, materials tracking, budget, timeline, build log, and AI build assistant in one workspace. Free for 2 projects.
-- [Cosplai](https://cosplai.me) - Mobile cosplay planner with budget tracking and convention discovery. iOS/Android.
-- [Cosplan](https://cosplan.app/) - Social-first cosplay planner with community features.
-- [Cosflowy](https://cosflowy.com) - Web-based planner organized by workflow elements.
-- [Cosgear](https://app.cosgear.co/) - Free cosplay planner with tutorials and build guides.
+**Cosplay-specific:**
+
+- [Cosplai](https://cosplai.me) - Mobile cosplay planner with budget tracking and convention discovery. iOS/Android. Free for 10 projects.
+- [Cosplan](https://cosplan.app/) - Social-first cosplay planner with 25,000+ users. Community feed, event discovery, photoshoot logging.
+- [Cosgear](https://app.cosgear.co/) - Completely free cosplay planner with tutorials, build guides, and unlimited storage.
+- [Cosflowy](https://cosflowy.com) - Web-based planner organized by workflow elements. Good for step-by-step thinkers.
+- [Costumary](https://www.costumary.com) - Reference boards, materials tracking, budget, timeline, build log, and AI build assistant. Free for 2 projects.
+
+**General tools cosplayers use:**
+
+- [Notion](https://www.notion.so) - Flexible workspace. Cosplay planner templates available on Etsy ($5-15). Powerful but requires setup time.
+- [Trello](https://trello.com) - Kanban boards. Good for group cosplay coordination and task tracking. Free.
+- [Milanote](https://milanote.com) - Visual mood boards. Best-in-class reference organization, but free tier caps at 100 cards.
+- [Google Sheets](https://sheets.google.com) - The most common cosplay budget tracker. Free, flexible, not pretty.
+- [Pinterest](https://www.pinterest.com) - Reference and inspiration collection. Every cosplayer uses it, but it's not a planner.
 
 ---
 
 ## Cost References
 
-Real cost breakdowns by build type, based on actual builds:
+Real cost breakdowns from various sources:
 
-| Guide | Covers |
-|-------|--------|
-| [EVA Foam Armor Cost](https://www.costumary.com/blog/eva-foam-armor-cost) | Full armor set: $80-400+ depending on complexity |
-| [Cosplay Prop Cost](https://www.costumary.com/blog/cosplay-prop-cost) | Props from simple to screen-accurate: $20-300+ |
-| [Sewing a Costume Cost](https://www.costumary.com/blog/sewing-costume-cost) | Sewn costumes: $50-300+ |
-| [Fursuit Making Cost](https://www.costumary.com/blog/fursuit-making-cost-breakdown) | DIY fursuit: $500-3,000+ |
-| [Drag Look Cost](https://www.costumary.com/blog/drag-look-cost-breakdown) | Full drag look: $100-800+ |
-| [Gunpla Build Cost](https://www.costumary.com/blog/gunpla-build-cost-guide) | Per kit: $12-400+ depending on grade and finishing |
-| [Commission Pricing Guide](https://www.costumary.com/blog/commission-pricing-guide) | How to price your work without losing money |
+| Guide | Source | Covers |
+|-------|--------|--------|
+| [How Much Does a Cosplay Cost?](https://www.kamuicosplay.com/2018/12/12/cosplaycost/) | Kamui Cosplay | Breakdown from a professional builder with real project numbers |
+| [Cosplay Spending Survey](https://www.statista.com/statistics/1135830/money-spent-cosplay-per-costume/) | Statista | Survey showing 32% of cosplayers spend $101-200 per costume |
+| [Punished Props Materials Guide](https://www.punishedprops.com/foamsmith-tools-and-materials/) | Punished Props | Foamsmith tools and materials with real product links and prices |
+| [EVA Foam Armor Cost](https://www.costumary.com/blog/eva-foam-armor-cost) | Costumary | Full armor set: $80-400+ depending on complexity |
+| [Cosplay Prop Cost](https://www.costumary.com/blog/cosplay-prop-cost) | Costumary | Props from simple to screen-accurate: $20-300+ |
+| [Sewing a Costume Cost](https://www.costumary.com/blog/sewing-costume-cost) | Costumary | Sewn costumes: $50-300+ |
+| [Commission Pricing Guide](https://www.costumary.com/blog/commission-pricing-guide) | Costumary | How to price your work without losing money |
+| [Cosplay Commission Cost Estimator](https://coscove.com/blog/estimate-cosplay-commission-cost) | Coscove | Commission pricing from the buyer's perspective |
+| [RPF Commission Pricing Thread](https://www.therpf.com/forums/threads/commission-work-and-pricing.286635/) | The RPF | Community discussion on real commission rates and structures |
 
 ---
 
@@ -393,7 +438,7 @@ Real cost breakdowns by build type, based on actual builds:
 
 Found a broken link? Know a supplier we're missing? Built something with a material we haven't listed?
 
-Please open a PR or issue. This list is maintained by [Costumary](https://www.costumary.com) but contributions from the community make it better.
+Please open a PR or issue. Contributions from the community make this list better.
 
 **Rules for contributions:**
 - Only add products/resources you've personally used or can verify are currently active.
@@ -408,3 +453,7 @@ Please open a PR or issue. This list is maintained by [Costumary](https://www.co
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 This work is dedicated to the public domain under CC0 1.0. Use it however you want.
+
+---
+
+**Maintained by [Costumary](https://www.costumary.com)**, the craft build journal for serious makers. References, materials, budgets, timelines, and build logs in one workspace.
