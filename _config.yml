@@ -1,0 +1,22 @@
+title: Awesome Cosplay Building
+description: A curated list of materials, suppliers, tools, techniques, and planning resources for cosplay builders.
+url: https://costumary.github.io
+baseurl: /awesome-cosplay-building
+
+plugins:
+  - jekyll-readme-index
+
+readme_index:
+  enabled: true
+  remove_originals: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - SOURCES.md
+  - LICENSE
+  - CONTRIBUTING.md

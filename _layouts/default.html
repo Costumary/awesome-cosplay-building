@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --paper: #F6F1EA;
+      --surface: #FBF8F2;
+      --warm: #EFE6DC;
+      --ink: #23201E;
+      --muted: #5E5650;
+      --border: #D8CCC1;
+      --rose: #B65F72;
+      --rose-deep: #A24E62;
+      --taupe: #8D8178;
+      --charcoal: #171614;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+
+    /* --- Header --- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+
+    .site-header h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: var(--charcoal);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+
+    .site-header p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* --- Main content --- */
+    .content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+
+    /* Hide the first h1 + intro from README since the site header covers it */
+    .content > h1:first-child,
+    .content > h1:first-child + blockquote,
+    .content > h1:first-child + blockquote + p,
+    .content > h1:first-child + blockquote + p + hr {
+      display: none;
+    }
+
+    /* --- Headings --- */
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      color: var(--charcoal);
+      letter-spacing: -0.01em;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin: 3rem 0 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin: 2rem 0 0.8rem;
+      color: var(--ink);
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.6rem;
+    }
+
+    /* --- Body text --- */
+    p {
+      margin: 0.8rem 0;
+      color: var(--ink);
+    }
+
+    strong { font-weight: 600; }
+
+    /* --- Links --- */
+    a {
+      color: var(--rose);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    a:hover {
+      color: var(--rose-deep);
+      text-decoration: underline;
+    }
+
+    /* --- Lists --- */
+    ul, ol {
+      padding-left: 1.4rem;
+      margin: 0.6rem 0;
+    }
+
+    li {
+      margin: 0.4rem 0;
+      line-height: 1.6;
+    }
+
+    li > ul, li > ol {
+      margin: 0.2rem 0;
+    }
+
+    /* Task list items */
+    li input[type="checkbox"] {
+      margin-right: 0.4rem;
+      accent-color: var(--rose);
+    }
+
+    /* --- Blockquotes --- */
+    blockquote {
+      border-left: 3px solid var(--rose);
+      background: var(--surface);
+      padding: 1rem 1.25rem;
+      margin: 1.2rem 0;
+      border-radius: 0 8px 8px 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    blockquote p { color: var(--muted); margin: 0; }
+
+    /* --- Tables --- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.9rem;
+      background: var(--surface);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    thead {
+      background: var(--warm);
+    }
+
+    th {
+      font-weight: 600;
+      text-align: left;
+      padding: 0.7rem 0.9rem;
+      color: var(--charcoal);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    td {
+      padding: 0.6rem 0.9rem;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:hover td {
+      background: rgba(182, 95, 114, 0.04);
+    }
+
+    /* --- Code --- */
+    code {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+      background: var(--warm);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.88em;
+      color: var(--rose-deep);
+    }
+
+    pre {
+      background: var(--charcoal);
+      color: var(--paper);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1rem 0;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+
+    /* --- Horizontal rules --- */
+    hr {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 3rem 0;
+    }
+
+    /* --- Images --- */
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    /* Badges inline */
+    h1 img, p > a > img {
+      vertical-align: middle;
+      border-radius: 2px;
+    }
+
+    /* --- Table of contents (Contents section) --- */
+    .content > ul:first-of-type {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem 1.5rem 1.2rem 2.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .content > ul:first-of-type li {
+      margin: 0.25rem 0;
+    }
+
+    .content > ul:first-of-type a {
+      font-weight: 500;
+    }
+
+    /* --- Sub footer --- */
+    .content > sub:last-child,
+    .content > p:last-child sub {
+      display: block;
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--taupe);
+    }
+
+    /* --- Back to top --- */
+    .back-to-top {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: var(--taupe);
+    }
+
+    .back-to-top:hover { color: var(--rose); }
+
+    /* --- Responsive --- */
+    @media (max-width: 640px) {
+      .site-header { padding: 1.5rem 1rem; }
+      .site-header h1 { font-size: 1.8rem; }
+      .content { padding: 1.5rem 1rem 3rem; }
+      h2 { font-size: 1.5rem; }
+      h3 { font-size: 1.15rem; }
+
+      table { font-size: 0.82rem; }
+      th, td { padding: 0.5rem 0.6rem; }
+
+      /* Stack tables on very small screens */
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      thead { display: none; }
+
+      tr {
+        margin-bottom: 0.75rem;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      td {
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+        border-top: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      td:last-child { border-bottom: none; }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        display: block;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--taupe);
+        margin-bottom: 0.15rem;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .content { max-width: 920px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Awesome Cosplay Building</h1>
+    <p>A curated list of materials, suppliers, tools, techniques, and planning resources for cosplay builders. Real products, real prices, real opinions.</p>
+  </header>
+
+  <main class="content">
+    {{ content }}
+    <a href="#" class="back-to-top">&uarr; Back to top</a>
+  </main>
+</body>
+</html>
