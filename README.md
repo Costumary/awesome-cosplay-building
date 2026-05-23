@@ -3,7 +3,7 @@
 > A curated list of materials, suppliers, tools, techniques, and planning resources for cosplay builders. Real products, real prices, real opinions.
 
 <p align="center">
-  <img src="assets/header-stitch.svg" alt="" width="600">
+  <img src="assets/armor-assembly.svg" alt="Cosplay armor pieces assembling into a complete set" width="750">
 </p>
 
 This isn't a generic link collection. Every item here has been used, tested, or verified by builders who make costumes for conventions. If something is expensive, we say so. If something has a cheaper alternative that works, we list it.
@@ -221,6 +221,10 @@ Add these when you're ready for cleaner builds.
 
 ---
 
+<p align="center">
+  <img src="assets/build-stages.svg" alt="Build stages: raw foam to sealed to primed to painted to weathered" width="600">
+</p>
+
 ## Techniques
 
 ### EVA Foam Working
@@ -404,7 +408,7 @@ If you make costumes for others, price these factors:
 
 ### Planning Tools Comparison
 
-<p align="center"><img src="assets/divider-scissors.svg" alt="" width="500"></p>
+<p align="center"><img src="assets/led-helmet.svg" alt="" width="400"></p>
 
 **Cosplay-specific planners:**
 
@@ -414,7 +418,7 @@ If you make costumes for others, price these factors:
 | <img src="assets/logos/cosplan.png" width="22" height="22"> | [Cosplan](https://cosplan.app/) | Social planner | Unlimited | Community feed, event discovery, photoshoot logging (25k+ users) |
 | <img src="assets/logos/cosgear.png" width="22" height="22"> | [Cosgear](https://app.cosgear.co/) | Free planner | Unlimited | Tutorials, build guides, and unlimited storage |
 | <img src="assets/logos/cosflowy.png" width="22" height="22"> | [Cosflowy](https://cosflowy.com) | Workflow planner | Yes | Step-by-step workflow organization |
-| | [Costumary](https://www.costumary.com) | Build workspace | 2 projects | Reference boards, materials, budget, timeline, build log, AI assistant |
+| <img src="assets/logos/costumary.png" width="22" height="22"> | [Costumary](https://www.costumary.com) | Build workspace | 2 projects | Reference boards, materials, budget, timeline, build log, AI assistant |
 
 **General tools cosplayers use:**
 

@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
+  <style>
+    @keyframes chest-in {
+      0% { opacity: 0; transform: translate(400px, 260px) rotate(0deg) scale(0.7); }
+      40% { opacity: 1; }
+      85% { transform: translate(400px, 173px) rotate(0deg) scale(1.02); }
+      100% { opacity: 1; transform: translate(400px, 178px) rotate(0deg) scale(1); }
+    }
+    @keyframes lpauldron-in {
+      0% { opacity: 0; transform: translate(200px, 30px) rotate(-30deg) scale(0.6); }
+      40% { opacity: 1; }
+      85% { transform: translate(300px, 102px) rotate(3deg) scale(1.02); }
+      100% { opacity: 1; transform: translate(300px, 98px) rotate(0deg) scale(1); }
+    }
+    @keyframes rpauldron-in {
+      0% { opacity: 0; transform: translate(600px, 30px) rotate(30deg) scale(0.6); }
+      40% { opacity: 1; }
+      85% { transform: translate(500px, 102px) rotate(-3deg) scale(1.02); }
+      100% { opacity: 1; transform: translate(500px, 98px) rotate(0deg) scale(1); }
+    }
+    @keyframes lbracer-in {
+      0% { opacity: 0; transform: translate(210px, 340px) rotate(-20deg) scale(0.5); }
+      40% { opacity: 1; }
+      85% { transform: translate(320px, 268px) rotate(2deg) scale(1.02); }
+      100% { opacity: 1; transform: translate(318px, 268px) rotate(0deg) scale(1); }
+    }
+    @keyframes rbracer-in {
+      0% { opacity: 0; transform: translate(590px, 340px) rotate(20deg) scale(0.5); }
+      40% { opacity: 1; }
+      85% { transform: translate(478px, 268px) rotate(-2deg) scale(1.02); }
+      100% { opacity: 1; transform: translate(482px, 268px) rotate(0deg) scale(1); }
+    }
+    @keyframes glow-pulse {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 0.25; }
+    }
+    @keyframes edge-glow {
+      0%, 100% { stroke-opacity: 0.2; stroke-width: 2; }
+      50% { stroke-opacity: 0.7; stroke-width: 3.5; }
+    }
+    @keyframes label-in {
+      0% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes frame-in {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes dot-pulse {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.35; }
+    }
+
+    .frame-bg {
+      opacity: 0;
+      animation: frame-in 0.6s ease-out forwards;
+    }
+    .chest {
+      opacity: 0;
+      animation: chest-in 1.6s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+    }
+    .l-pauldron {
+      opacity: 0;
+      animation: lpauldron-in 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.7s forwards;
+    }
+    .r-pauldron {
+      opacity: 0;
+      animation: rpauldron-in 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.7s forwards;
+    }
+    .l-bracer {
+      opacity: 0;
+      animation: lbracer-in 1.3s cubic-bezier(0.22, 1, 0.36, 1) 1.1s forwards;
+    }
+    .r-bracer {
+      opacity: 0;
+      animation: rbracer-in 1.3s cubic-bezier(0.22, 1, 0.36, 1) 1.1s forwards;
+    }
+
+    .piece-fill { fill: #B65F72; }
+    .piece-outline { stroke: #A24E62; stroke-width: 2; fill: none; stroke-linejoin: round; }
+    .piece-detail { stroke: #93505F; stroke-width: 1; fill: none; opacity: 0.45; }
+    .piece-highlight { stroke: #D4899A; stroke-width: 0.8; fill: none; opacity: 0.3; }
+
+    .glow-shape {
+      fill: #B65F72;
+      filter: url(#glow-blur);
+      opacity: 0;
+      animation: glow-pulse 3.5s ease-in-out 2.8s infinite;
+    }
+    .edge-pulse {
+      fill: none;
+      stroke: #D4899A;
+      stroke-width: 2;
+      stroke-opacity: 0.2;
+      animation: edge-glow 3.5s ease-in-out 2.8s infinite;
+    }
+
+    .label {
+      font-family: sans-serif;
+      font-size: 11px;
+      fill: #8D8178;
+      text-anchor: middle;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      opacity: 0;
+      animation: label-in 0.8s ease-out 2.6s forwards;
+    }
+    .sublabel {
+      font-family: sans-serif;
+      font-size: 9px;
+      fill: #B0A79E;
+      text-anchor: middle;
+      letter-spacing: 1px;
+      opacity: 0;
+      animation: label-in 0.8s ease-out 2.9s forwards;
+    }
+
+    .grid-dot {
+      fill: #D8CCC1;
+      opacity: 0.15;
+      animation: dot-pulse 5s ease-in-out infinite;
+    }
+
+    .frame-border { fill: none; stroke: #D8CCC1; stroke-width: 1; }
+    .frame-fill { fill: #FBF8F2; }
+
+    @media (prefers-color-scheme: dark) {
+      .piece-fill { fill: #D4899A; }
+      .piece-outline { stroke: #E8B0BF; stroke-width: 1.8; }
+      .piece-detail { stroke: #C47A8C; }
+      .piece-highlight { stroke: #F0C8D4; }
+      .glow-shape { fill: #D4899A; }
+      .edge-pulse { stroke: #F0C8D4; }
+      .label { fill: #B0A79E; }
+      .sublabel { fill: #8D8178; }
+      .grid-dot { fill: #5E5650; opacity: 0.2; }
+      .frame-border { stroke: #3A3632; }
+      .frame-fill { fill: #1E1C1A; }
+    }
+  </style>
+
+  <defs>
+    <filter id="glow-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <!-- Background frame -->
+  <g class="frame-bg">
+    <rect class="frame-fill" x="40" y="16" width="720" height="348" rx="16"/>
+    <rect class="frame-border" x="40" y="16" width="720" height="348" rx="16"/>
+
+    <!-- Subtle dot grid pattern -->
+    <g>
+      <circle class="grid-dot" cx="100" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="160" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="220" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="280" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="340" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="400" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="460" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="520" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="580" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="640" cy="60" r="1.5"/>
+      <circle class="grid-dot" cx="700" cy="60" r="1.5"/>
+
+      <circle class="grid-dot" cx="100" cy="120" r="1.5" style="animation-delay:0.5s"/>
+      <circle class="grid-dot" cx="160" cy="120" r="1.5" style="animation-delay:0.5s"/>
+      <circle class="grid-dot" cx="220" cy="120" r="1.5" style="animation-delay:0.5s"/>
+      <circle class="grid-dot" cx="580" cy="120" r="1.5" style="animation-delay:0.5s"/>
+      <circle class="grid-dot" cx="640" cy="120" r="1.5" style="animation-delay:0.5s"/>
+      <circle class="grid-dot" cx="700" cy="120" r="1.5" style="animation-delay:0.5s"/>
+
+      <circle class="grid-dot" cx="100" cy="180" r="1.5" style="animation-delay:1s"/>
+      <circle class="grid-dot" cx="160" cy="180" r="1.5" style="animation-delay:1s"/>
+      <circle class="grid-dot" cx="640" cy="180" r="1.5" style="animation-delay:1s"/>
+      <circle class="grid-dot" cx="700" cy="180" r="1.5" style="animation-delay:1s"/>
+
+      <circle class="grid-dot" cx="100" cy="240" r="1.5" style="animation-delay:1.5s"/>
+      <circle class="grid-dot" cx="160" cy="240" r="1.5" style="animation-delay:1.5s"/>
+      <circle class="grid-dot" cx="640" cy="240" r="1.5" style="animation-delay:1.5s"/>
+      <circle class="grid-dot" cx="700" cy="240" r="1.5" style="animation-delay:1.5s"/>
+
+      <circle class="grid-dot" cx="100" cy="300" r="1.5" style="animation-delay:2s"/>
+      <circle class="grid-dot" cx="160" cy="300" r="1.5" style="animation-delay:2s"/>
+      <circle class="grid-dot" cx="220" cy="300" r="1.5" style="animation-delay:2s"/>
+      <circle class="grid-dot" cx="580" cy="300" r="1.5" style="animation-delay:2s"/>
+      <circle class="grid-dot" cx="640" cy="300" r="1.5" style="animation-delay:2s"/>
+      <circle class="grid-dot" cx="700" cy="300" r="1.5" style="animation-delay:2s"/>
+    </g>
+  </g>
+
+  <!-- Center glow (appears after assembly) -->
+  <ellipse class="glow-shape" cx="400" cy="180" rx="100" ry="110"/>
+
+  <!-- CHEST PLATE -->
+  <g class="chest">
+    <path class="piece-fill" d="
+      M 0 -85  L -65 -65  L -74 -30  Q -74 32, -55 58  L -22 78  L 0 80  L 22 78  L 55 58  Q 74 32, 74 -30  L 65 -65  Z"/>
+    <path class="piece-outline" d="
+      M 0 -85  L -65 -65  L -74 -30  Q -74 32, -55 58  L -22 78  L 0 80  L 22 78  L 55 58  Q 74 32, 74 -30  L 65 -65  Z"/>
+    <line class="piece-detail" x1="0" y1="-78" x2="0" y2="75"/>
+    <path class="piece-detail" d="M -50 -38 Q 0 -22, 50 -38"/>
+    <path class="piece-detail" d="M -35 18 Q 0 34, 35 18"/>
+    <path class="piece-detail" d="M -28 -70 Q 0 -58, 28 -70"/>
+    <path class="piece-highlight" d="M -62 -60 L -70 -28 Q -70 25, -53 50"/>
+    <path class="piece-highlight" d="M 62 -60 L 70 -28 Q 70 25, 53 50"/>
+  </g>
+
+  <!-- LEFT PAULDRON -->
+  <g class="l-pauldron">
+    <path class="piece-fill" d="
+      M -48 0  Q -42 -38, -6 -46  L 42 -36  L 52 -12  Q 52 22, 34 40  L 0 50  L -34 34  Q -54 16, -48 0  Z"/>
+    <path class="piece-outline" d="
+      M -48 0  Q -42 -38, -6 -46  L 42 -36  L 52 -12  Q 52 22, 34 40  L 0 50  L -34 34  Q -54 16, -48 0  Z"/>
+    <path class="piece-detail" d="M -36 6 Q 0 -10, 42 0"/>
+    <path class="piece-detail" d="M -28 24 Q 2 12, 36 22"/>
+    <path class="piece-highlight" d="M -44 2 Q -38 -32, -4 -40"/>
+  </g>
+
+  <!-- RIGHT PAULDRON -->
+  <g class="r-pauldron">
+    <path class="piece-fill" d="
+      M 48 0  Q 42 -38, 6 -46  L -42 -36  L -52 -12  Q -52 22, -34 40  L 0 50  L 34 34  Q 54 16, 48 0  Z"/>
+    <path class="piece-outline" d="
+      M 48 0  Q 42 -38, 6 -46  L -42 -36  L -52 -12  Q -52 22, -34 40  L 0 50  L 34 34  Q 54 16, 48 0  Z"/>
+    <path class="piece-detail" d="M 36 6 Q 0 -10, -42 0"/>
+    <path class="piece-detail" d="M 28 24 Q -2 12, -36 22"/>
+    <path class="piece-highlight" d="M 44 2 Q 38 -32, 4 -40"/>
+  </g>
+
+  <!-- LEFT BRACER -->
+  <g class="l-bracer">
+    <path class="piece-fill" d="
+      M -24 -28  L 24 -30  L 30 -10  Q 34 18, 24 34  L -22 36  Q -30 18, -28 -10  Z"/>
+    <path class="piece-outline" d="
+      M -24 -28  L 24 -30  L 30 -10  Q 34 18, 24 34  L -22 36  Q -30 18, -28 -10  Z"/>
+    <line class="piece-detail" x1="-18" y1="-4" x2="24" y2="-6"/>
+    <line class="piece-detail" x1="-14" y1="15" x2="22" y2="14"/>
+    <path class="piece-highlight" d="M -22 -24 L -26 -8 Q -28 14, -20 30"/>
+  </g>
+
+  <!-- RIGHT BRACER -->
+  <g class="r-bracer">
+    <path class="piece-fill" d="
+      M 24 -28  L -24 -30  L -30 -10  Q -34 18, -24 34  L 22 36  Q 30 18, 28 -10  Z"/>
+    <path class="piece-outline" d="
+      M 24 -28  L -24 -30  L -30 -10  Q -34 18, -24 34  L 22 36  Q 30 18, 28 -10  Z"/>
+    <line class="piece-detail" x1="18" y1="-4" x2="-24" y2="-6"/>
+    <line class="piece-detail" x1="14" y1="15" x2="-22" y2="14"/>
+    <path class="piece-highlight" d="M 22 -24 L 26 -8 Q 28 14, 20 30"/>
+  </g>
+
+  <!-- Post-assembly edge glow on chest -->
+  <path class="edge-pulse" d="
+    M 400 93  L 335 113  L 326 148  Q 326 210, 345 236  L 378 256  L 400 258  L 422 256  L 455 236  Q 474 210, 474 148  L 465 113  Z"/>
+
+  <!-- Labels -->
+  <text class="label" x="400" y="340">From foam to finished</text>
+  <text class="sublabel" x="400" y="355">Every build starts here</text>
+</svg>

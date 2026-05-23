@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 100" width="700" height="100">
+  <style>
+    @keyframes highlight-travel {
+      0%, 5% { transform: translate(70px, 38px); opacity: 1; }
+      18%, 23% { transform: translate(70px, 38px); opacity: 1; }
+      25% { transform: translate(70px, 38px); opacity: 0; }
+      26% { transform: translate(210px, 38px); opacity: 0; }
+      28%, 43% { transform: translate(210px, 38px); opacity: 1; }
+      45% { transform: translate(210px, 38px); opacity: 0; }
+      46% { transform: translate(350px, 38px); opacity: 0; }
+      48%, 63% { transform: translate(350px, 38px); opacity: 1; }
+      65% { transform: translate(350px, 38px); opacity: 0; }
+      66% { transform: translate(490px, 38px); opacity: 0; }
+      68%, 83% { transform: translate(490px, 38px); opacity: 1; }
+      85% { transform: translate(490px, 38px); opacity: 0; }
+      86% { transform: translate(630px, 38px); opacity: 0; }
+      88%, 98% { transform: translate(630px, 38px); opacity: 1; }
+      100% { transform: translate(630px, 38px); opacity: 0; }
+    }
+    @keyframes arrow-pulse {
+      0%, 100% { opacity: 0.25; }
+      50% { opacity: 0.5; }
+    }
+    @keyframes stage-fade-in {
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .highlight-ring {
+      animation: highlight-travel 8s ease-in-out infinite;
+    }
+    .arrow { animation: arrow-pulse 3s ease-in-out infinite; }
+
+    .stage-1 { animation: stage-fade-in 0.5s ease-out 0.1s both; }
+    .stage-2 { animation: stage-fade-in 0.5s ease-out 0.25s both; }
+    .stage-3 { animation: stage-fade-in 0.5s ease-out 0.4s both; }
+    .stage-4 { animation: stage-fade-in 0.5s ease-out 0.55s both; }
+    .stage-5 { animation: stage-fade-in 0.5s ease-out 0.7s both; }
+
+    .foam-fill { fill: #8D8178; }
+    .sealed-fill { fill: #A09890; }
+    .primed-fill { fill: #EFE6DC; }
+    .painted-fill { fill: #B65F72; }
+    .weathered-fill { fill: #B65F72; }
+
+    .shape-stroke { stroke: #5E5650; stroke-width: 1.2; fill: none; stroke-linejoin: round; }
+    .scratch { stroke: #4A3530; stroke-width: 1; stroke-linecap: round; opacity: 0.6; }
+    .scratch-light { stroke: #D4899A; stroke-width: 0.6; stroke-linecap: round; opacity: 0.4; }
+    .foam-texture { fill: #7A726A; opacity: 0.3; }
+    .label-text { font-family: sans-serif; font-size: 9px; fill: #8D8178; text-anchor: middle; }
+    .arrow-shape { fill: #D8CCC1; }
+    .ring-stroke { fill: none; stroke: #B65F72; stroke-width: 2; filter: url(#ring-glow); }
+
+    @media (prefers-color-scheme: dark) {
+      .foam-fill { fill: #6E665E; }
+      .sealed-fill { fill: #8A827A; }
+      .primed-fill { fill: #C8BEB2; }
+      .painted-fill { fill: #D4899A; }
+      .weathered-fill { fill: #D4899A; }
+      .shape-stroke { stroke: #B0A79E; }
+      .scratch { stroke: #7A5560; opacity: 0.5; }
+      .scratch-light { stroke: #E8B0BF; opacity: 0.35; }
+      .foam-texture { fill: #5A5248; }
+      .label-text { fill: #B0A79E; }
+      .arrow-shape { fill: #5E5650; }
+      .ring-stroke { stroke: #D4899A; }
+    }
+  </style>
+
+  <defs>
+    <filter id="ring-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+    <!-- Pauldron shape reusable -->
+    <path id="pauldron" d="
+      M -22 -2
+      Q -18 -18, 0 -22
+      L 20 -18
+      L 24 -6
+      Q 24 10, 16 18
+      L 0 22
+      L -16 14
+      Q -24 6, -22 -2
+      Z
+    "/>
+  </defs>
+
+  <!-- Traveling highlight ring -->
+  <ellipse class="highlight-ring ring-stroke" cx="0" cy="0" rx="30" ry="30"/>
+
+  <!-- Stage 1: Raw Foam -->
+  <g class="stage-1" transform="translate(70, 38)">
+    <use href="#pauldron" class="foam-fill"/>
+    <!-- Rough foam texture dots -->
+    <circle class="foam-texture" cx="-8" cy="-6" r="1.5"/>
+    <circle class="foam-texture" cx="5" cy="4" r="1.2"/>
+    <circle class="foam-texture" cx="-3" cy="10" r="1"/>
+    <circle class="foam-texture" cx="12" cy="-10" r="1.3"/>
+    <circle class="foam-texture" cx="-12" cy="5" r="0.9"/>
+    <use href="#pauldron" class="shape-stroke"/>
+    <text class="label-text" x="0" y="38">Raw foam</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g class="arrow" transform="translate(118, 36)">
+    <polygon class="arrow-shape" points="0,0 18,0 24,4 18,8 0,8"/>
+  </g>
+
+  <!-- Stage 2: Sealed -->
+  <g class="stage-2" transform="translate(210, 38)">
+    <use href="#pauldron" class="sealed-fill"/>
+    <use href="#pauldron" class="shape-stroke"/>
+    <text class="label-text" x="0" y="38">Sealed</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g class="arrow" transform="translate(258, 36)" style="animation-delay: 0.5s">
+    <polygon class="arrow-shape" points="0,0 18,0 24,4 18,8 0,8"/>
+  </g>
+
+  <!-- Stage 3: Primed -->
+  <g class="stage-3" transform="translate(350, 38)">
+    <use href="#pauldron" class="primed-fill"/>
+    <use href="#pauldron" class="shape-stroke"/>
+    <text class="label-text" x="0" y="38">Primed</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g class="arrow" transform="translate(398, 36)" style="animation-delay: 1s">
+    <polygon class="arrow-shape" points="0,0 18,0 24,4 18,8 0,8"/>
+  </g>
+
+  <!-- Stage 4: Painted -->
+  <g class="stage-4" transform="translate(490, 38)">
+    <use href="#pauldron" class="painted-fill"/>
+    <use href="#pauldron" class="shape-stroke"/>
+    <text class="label-text" x="0" y="38">Painted</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <g class="arrow" transform="translate(538, 36)" style="animation-delay: 1.5s">
+    <polygon class="arrow-shape" points="0,0 18,0 24,4 18,8 0,8"/>
+  </g>
+
+  <!-- Stage 5: Weathered -->
+  <g class="stage-5" transform="translate(630, 38)">
+    <use href="#pauldron" class="weathered-fill"/>
+    <!-- Weathering scratches -->
+    <line class="scratch" x1="-10" y1="-12" x2="-4" y2="-4"/>
+    <line class="scratch" x1="6" y1="-8" x2="14" y2="2"/>
+    <line class="scratch" x1="-6" y1="4" x2="2" y2="14"/>
+    <line class="scratch-light" x1="-9" y1="-11" x2="-3" y2="-3"/>
+    <line class="scratch-light" x1="7" y1="-7" x2="15" y2="3"/>
+    <!-- Edge wear highlights -->
+    <path d="M -20 0 Q -16 -15, 2 -20" stroke="#D4899A" stroke-width="0.8" fill="none" opacity="0.4"/>
+    <path d="M 22 -4 Q 22 12, 14 18" stroke="#D4899A" stroke-width="0.8" fill="none" opacity="0.3"/>
+    <use href="#pauldron" class="shape-stroke"/>
+    <text class="label-text" x="0" y="38">Weathered</text>
+  </g>
+</svg>

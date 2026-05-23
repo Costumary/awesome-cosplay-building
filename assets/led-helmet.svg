@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <style>
+    @keyframes visor-scan {
+      0% { transform: translate(-120px, 0); }
+      100% { transform: translate(120px, 0); }
+    }
+    @keyframes visor-glow {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes helmet-fade-in {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes visor-base-pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 0.7; }
+    }
+
+    .helmet-shell { fill: #2A2622; stroke: #8D8178; stroke-width: 2; stroke-linejoin: round; }
+    .helmet-inner { fill: #1A1816; stroke: none; }
+    .helmet-ridge { fill: none; stroke: #5E5650; stroke-width: 1.2; }
+    .helmet-detail { fill: none; stroke: #4A4540; stroke-width: 0.8; }
+
+    .visor-slit { fill: #1A0A10; }
+    .visor-base {
+      fill: #B65F72;
+      opacity: 0.5;
+      animation: visor-base-pulse 4s ease-in-out infinite;
+    }
+    .visor-scan-light {
+      animation: visor-scan 2.5s ease-in-out infinite alternate;
+    }
+    .visor-ambient {
+      opacity: 0.15;
+      animation: visor-glow 4s ease-in-out infinite;
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: helmet-fade-in 0.8s ease-out forwards;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .helmet-shell { fill: #3A3632; stroke: #B0A79E; }
+      .helmet-inner { fill: #252220; }
+      .helmet-ridge { stroke: #8D8178; }
+      .helmet-detail { stroke: #6E6660; }
+      .visor-base { fill: #D4899A; }
+      .visor-slit { fill: #200D15; }
+    }
+  </style>
+
+  <defs>
+    <filter id="led-glow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+    <filter id="ambient-glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+    <clipPath id="visor-clip">
+      <path d="M 232 52 L 258 48 L 300 46 L 342 48 L 368 52 L 368 62 L 342 66 L 300 68 L 258 66 L 232 62 Z"/>
+    </clipPath>
+    <linearGradient id="scan-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B65F72" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#5BC0BE" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#B65F72" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#5BC0BE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#B65F72" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g class="fade-in">
+    <!-- Ambient visor glow (behind helmet) -->
+    <ellipse class="visor-ambient" cx="300" cy="57" rx="80" ry="20" fill="#B65F72" filter="url(#ambient-glow)"/>
+
+    <!-- Helmet shell - main dome -->
+    <path class="helmet-shell" d="
+      M 210 80
+      Q 210 20, 260 12
+      L 300 8
+      L 340 12
+      Q 390 20, 390 80
+      L 380 90
+      Q 340 98, 300 100
+      Q 260 98, 220 90
+      Z
+    "/>
+
+    <!-- Center ridge -->
+    <path class="helmet-ridge" d="M 300 10 L 300 42"/>
+
+    <!-- Side panel lines -->
+    <path class="helmet-detail" d="M 240 20 Q 238 50, 225 78"/>
+    <path class="helmet-detail" d="M 360 20 Q 362 50, 375 78"/>
+
+    <!-- Cheek vents -->
+    <line class="helmet-detail" x1="228" y1="72" x2="240" y2="74"/>
+    <line class="helmet-detail" x1="230" y1="76" x2="242" y2="78"/>
+    <line class="helmet-detail" x1="372" y1="72" x2="360" y2="74"/>
+    <line class="helmet-detail" x1="370" y1="76" x2="358" y2="78"/>
+
+    <!-- Brow plate -->
+    <path class="helmet-ridge" d="M 235 44 Q 268 36, 300 34 Q 332 36, 365 44"/>
+
+    <!-- T-Visor slit background -->
+    <path class="visor-slit" d="
+      M 232 52
+      L 258 48
+      L 295 46
+      L 300 34
+      L 305 46
+      L 342 48
+      L 368 52
+      L 368 62
+      L 342 66
+      L 305 68
+      L 300 76
+      L 295 68
+      L 258 66
+      L 232 62
+      Z
+    "/>
+
+    <!-- Visor base color layer -->
+    <path class="visor-base" d="
+      M 232 52
+      L 258 48
+      L 295 46
+      L 300 34
+      L 305 46
+      L 342 48
+      L 368 52
+      L 368 62
+      L 342 66
+      L 305 68
+      L 300 76
+      L 295 68
+      L 258 66
+      L 232 62
+      Z
+    "/>
+
+    <!-- Scanning LED chase effect (clipped to visor) -->
+    <g clip-path="url(#visor-clip)">
+      <rect class="visor-scan-light" x="260" y="40" width="80" height="32" fill="url(#scan-gradient)" filter="url(#led-glow)"/>
+    </g>
+
+    <!-- Vertical T-bar of visor -->
+    <path class="visor-base" d="M 297 34 L 303 34 L 303 76 L 297 76 Z" opacity="0.3"/>
+
+    <!-- Lower jaw line -->
+    <path class="helmet-ridge" d="M 230 82 Q 265 88, 300 90 Q 335 88, 370 82"/>
+
+    <!-- Chin vent -->
+    <path class="helmet-detail" d="M 285 92 L 300 95 L 315 92"/>
+  </g>
+</svg>
