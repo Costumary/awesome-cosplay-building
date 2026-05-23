@@ -6,6 +6,36 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "url": "{{ page.url | absolute_url }}",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Cosplay Building Resources",
+      "description": "Curated materials, suppliers, tools, techniques, and planning resources for cosplay builders",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": 200
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -331,9 +361,126 @@
     @media (min-width: 1200px) {
       .content { max-width: 920px; }
     }
+
+    /* --- Floating sidebar --- */
+    .sidebar {
+      position: fixed;
+      left: 1.25rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      z-index: 50;
+    }
+
+    .sidebar a, .sidebar button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--taupe);
+      cursor: pointer;
+      transition: all 0.15s;
+      text-decoration: none;
+      font-size: 0;
+    }
+
+    .sidebar a:hover, .sidebar button:hover {
+      background: var(--warm);
+      color: var(--rose);
+      border-color: var(--rose);
+      text-decoration: none;
+    }
+
+    .sidebar svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .sidebar .sidebar-label {
+      position: absolute;
+      left: 46px;
+      background: var(--charcoal);
+      color: var(--paper);
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s;
+    }
+
+    .sidebar a:hover .sidebar-label,
+    .sidebar button:hover .sidebar-label {
+      opacity: 1;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--charcoal);
+      color: var(--paper);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      opacity: 0;
+      transition: all 0.25s;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* --- Tool logo images in tables --- */
+    .tool-logo {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+      vertical-align: middle;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+    }
   </style>
 </head>
 <body>
+  <nav class="sidebar" aria-label="Quick actions">
+    <a href="https://github.com/Costumary/awesome-cosplay-building" target="_blank" rel="noopener" aria-label="View on GitHub">
+      <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+      <span class="sidebar-label">View on GitHub</span>
+    </a>
+    <button onclick="copyLink()" aria-label="Copy link">
+      <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+      <span class="sidebar-label">Copy link</span>
+    </button>
+    <button onclick="printPage()" aria-label="Print page">
+      <svg viewBox="0 0 24 24"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+      <span class="sidebar-label">Print / Save PDF</span>
+    </button>
+    <a href="#" aria-label="Back to top">
+      <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      <span class="sidebar-label">Back to top</span>
+    </a>
+  </nav>
+
   <header class="site-header">
     <h1>Awesome Cosplay Building</h1>
     <p>A curated list of materials, suppliers, tools, techniques, and planning resources for cosplay builders. Real products, real prices, real opinions.</p>
@@ -343,5 +490,26 @@
     {{ content }}
     <a href="#" class="back-to-top">&uarr; Back to top</a>
   </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    function copyLink() {
+      navigator.clipboard.writeText(window.location.href).then(function() {
+        showToast('Link copied');
+      });
+    }
+
+    function printPage() {
+      window.print();
+    }
+
+    function showToast(msg) {
+      var t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(function() { t.classList.remove('show'); }, 2000);
+    }
+  </script>
 </body>
 </html>

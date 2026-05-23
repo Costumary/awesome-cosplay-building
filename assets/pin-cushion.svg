@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100">
+  <style>
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.04); }
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    .cushion {
+      transform-origin: 60px 62px;
+      animation: pulse 3s ease-in-out infinite;
+    }
+    .p1 { animation: bob 2s ease-in-out 0s infinite; }
+    .p2 { animation: bob 2s ease-in-out 0.4s infinite; }
+    .p3 { animation: bob 2s ease-in-out 0.8s infinite; }
+    .cushion-base { fill: #B65F72; }
+    .cushion-top { fill: #C97A8A; }
+    .pin-shaft { stroke: #D8CCC1; stroke-width: 1.5; }
+    .pin-head-1 { fill: #B65F72; }
+    .pin-head-2 { fill: #8D8178; }
+    .pin-head-3 { fill: #5E5650; }
+    @media (prefers-color-scheme: dark) {
+      .cushion-base { fill: #A24E62; }
+      .cushion-top { fill: #B65F72; }
+      .pin-shaft { stroke: #B0A79E; }
+    }
+  </style>
+
+  <ellipse class="cushion cushion-base" cx="60" cy="65" rx="38" ry="22"/>
+  <ellipse class="cushion cushion-top" cx="60" cy="62" rx="35" ry="19"/>
+
+  <g class="p1">
+    <line class="pin-shaft" x1="42" y1="28" x2="42" y2="58"/>
+    <circle class="pin-head-1" cx="42" cy="26" r="4"/>
+  </g>
+  <g class="p2">
+    <line class="pin-shaft" x1="60" y1="22" x2="60" y2="52"/>
+    <circle class="pin-head-2" cx="60" cy="20" r="4"/>
+  </g>
+  <g class="p3">
+    <line class="pin-shaft" x1="78" y1="30" x2="78" y2="56"/>
+    <circle class="pin-head-3" cx="78" cy="28" r="4"/>
+  </g>
+</svg>

@@ -108,6 +108,21 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | CostumeCalc | https://www.costumecalc.com/ | Yes |
 | AgentCalc Cosplay Planner | https://agentcalc.com/cosplay-costume-planner | Yes |
 
+## Craft and Hobby Tools (verified active)
+
+| Tool | URL | Verified |
+|------|-----|----------|
+| ThreadLoop | https://threadloop.app/ | Yes |
+| Sewist | https://www.sewist.com/ | Yes |
+| My Body Model | https://www.mybodymodel.com/ | Yes |
+| Stash Hub | https://stashhubapp.com/ | Yes |
+| Pile of Potential | https://pileofpotential.com/ | Yes |
+| paintRack | https://www.courageousoctopus.com/ | Yes |
+| Hobby Streak | http://www.hobbystreak.com/ | Yes |
+| Dalong.net | https://www.dalong.net/ | Yes |
+| GunplaDB | https://gunpladb.com/ | Yes |
+| HobbyLink Japan | https://www.hlj.com/ | Yes |
+
 ## Cost Reference Sources
 
 | Source | URL | Type | Verified |

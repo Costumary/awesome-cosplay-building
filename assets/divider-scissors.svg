@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="800" height="40">
+  <style>
+    @keyframes cut-line {
+      from { stroke-dashoffset: 500; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes snip-top {
+      0%, 70%, 100% { transform: rotate(0deg); }
+      80% { transform: rotate(-12deg); }
+      90% { transform: rotate(0deg); }
+    }
+    @keyframes snip-bottom {
+      0%, 70%, 100% { transform: rotate(0deg); }
+      80% { transform: rotate(12deg); }
+      90% { transform: rotate(0deg); }
+    }
+    .cut-line {
+      stroke: #D8CCC1;
+      stroke-dasharray: 6 4;
+      stroke-dashoffset: 500;
+      animation: cut-line 3s ease-out forwards;
+    }
+    .blade-top {
+      transform-origin: 400px 20px;
+      animation: snip-top 2s ease-in-out infinite;
+    }
+    .blade-bottom {
+      transform-origin: 400px 20px;
+      animation: snip-bottom 2s ease-in-out infinite;
+    }
+    .blade-fill { fill: #8D8178; }
+    .handle-ring { fill: none; stroke: #B65F72; stroke-width: 2; }
+    .pivot { fill: #5E5650; }
+    @media (prefers-color-scheme: dark) {
+      .cut-line { stroke: #5E5650; }
+      .blade-fill { fill: #B0A79E; }
+      .handle-ring { stroke: #D4899A; }
+      .pivot { fill: #B0A79E; }
+    }
+  </style>
+
+  <line class="cut-line" x1="50" y1="20" x2="380" y2="20" stroke-width="1.5"/>
+  <line class="cut-line" x1="420" y1="20" x2="750" y2="20" stroke-width="1.5" style="animation-delay: 0.5s"/>
+
+  <g class="blade-top">
+    <path class="blade-fill" d="M 400 20 L 375 12 Q 373 11, 374 13 L 398 19 Z"/>
+  </g>
+  <g class="blade-bottom">
+    <path class="blade-fill" d="M 400 20 L 375 28 Q 373 29, 374 27 L 398 21 Z"/>
+  </g>
+  <circle class="pivot" cx="400" cy="20" r="2.5"/>
+  <ellipse class="handle-ring" cx="415" cy="14" rx="10" ry="6"/>
+  <ellipse class="handle-ring" cx="415" cy="26" rx="10" ry="6"/>
+</svg>

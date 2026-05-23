@@ -2,6 +2,10 @@
 
 > A curated list of materials, suppliers, tools, techniques, and planning resources for cosplay builders. Real products, real prices, real opinions.
 
+<p align="center">
+  <img src="assets/header-stitch.svg" alt="" width="600">
+</p>
+
 This isn't a generic link collection. Every item here has been used, tested, or verified by builders who make costumes for conventions. If something is expensive, we say so. If something has a cheaper alternative that works, we list it.
 
 ---
@@ -42,7 +46,8 @@ This isn't a generic link collection. Every item here has been used, tested, or 
   - [Budget Templates](#budget-templates)
   - [Convention Checklists](#convention-checklists)
   - [Commission Pricing](#commission-pricing)
-  - [Planning Tools](#planning-tools)
+  - [Planning Tools Comparison](#planning-tools-comparison)
+  - [Craft and Hobby Tools](#craft-and-hobby-tools)
 - [Cost References](#cost-references)
 - [Contributing](#contributing)
 
@@ -141,13 +146,13 @@ For duplicating parts, making smooth props, or mass-producing accessories.
 
 ### Cosplay-Specific Suppliers
 
-| Supplier | Speciality | Ships from | Notes |
-|----------|-----------|-----------|-------|
-| [TNT Cosplay Supply](https://www.tntcosplaysupply.com) | EVA foam, foam clay, patterns | US | The go-to for foam. Good customer service. |
-| [SKS Props](https://www.sksprops.com) | EVA foam, tools, kits | US | High-density foam options, bulk discounts. |
-| [Worbla](https://www.worbla.com) | Thermoplastic sheets | Germany (US distributors) | Order from a US distributor to save on shipping. |
-| [Lumin's Workshop](https://www.luminsworkshop.com) | Foam clay, tools, tutorials | UK/US | Lumina Clay is the foam clay community standard. |
-| [Bronavaro](https://bronavaro.com/) | EVA foam patterns, pepakura PDO files | EU | Downloadable armor patterns. Good if you don't want to draft from scratch. |
+| | Supplier | Speciality | Ships from | Notes |
+|---|----------|-----------|-----------|-------|
+| <img src="assets/logos/tnt-cosplay.png" width="20" height="20"> | [TNT Cosplay Supply](https://www.tntcosplaysupply.com) | EVA foam, foam clay, patterns | US | The go-to for foam. Good customer service. |
+| <img src="assets/logos/sks-props.png" width="20" height="20"> | [SKS Props](https://www.sksprops.com) | EVA foam, tools, kits | US | High-density foam options, bulk discounts. |
+| <img src="assets/logos/worbla.png" width="20" height="20"> | [Worbla](https://www.worbla.com) | Thermoplastic sheets | Germany (US distributors) | Order from a US distributor to save on shipping. |
+| | [Lumin's Workshop](https://www.luminsworkshop.com) | Foam clay, tools, tutorials | UK/US | Lumina Clay is the foam clay community standard. |
+| | [Bronavaro](https://bronavaro.com/) | EVA foam patterns, pepakura PDO files | EU | Downloadable armor patterns. Good if you don't want to draft from scratch. |
 
 ### General Craft and Hardware
 
@@ -168,6 +173,7 @@ For duplicating parts, making smooth props, or mass-producing accessories.
 
 - **UK:** [Coscraft](https://www.coscraft.co.uk) (foam, Worbla, tools), [MBFGCreative](https://www.mbfgcreative.co.uk) (foam)
 - **EU:** [Worbla.com](https://www.worbla.com) (direct), [CosplayShop.be](https://www.cosplayshop.be) (Belgium-based, ships EU-wide)
+- **Japan:** <img src="assets/logos/hlj.png" width="18" height="18"> [HobbyLink Japan](https://www.hlj.com/) (model kits, tools, supplies at Japanese domestic prices, ships to 220+ countries)
 - **Australia:** [The Foam Cave](https://thefoamcave.com.au), [Cosplay Supplies Australia](https://cosplaysupplies.com.au)
 - **Canada:** [Kanten Cosplay](https://kantencosplay.ca), [Cosplay Supplies Canada](https://cosplaysuppliescanada.ca)
 
@@ -294,16 +300,16 @@ Sewn construction is half of most cosplays and deserves as much attention as arm
 
 ### YouTube Channels
 
-| Channel | Focus | Why it's good |
-|---------|-------|--------------|
-| [Kamui Cosplay](https://www.youtube.com/@KamuiCos) | EVA foam armor, thermoplastics | The most thorough foam tutorials. Clear, well-produced, decades of experience. |
-| [Punished Props Academy](https://www.youtube.com/@PunishedProps) | Props, foam, 3D printing, resin | Covers everything. Good for prop-specific builds. |
-| [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) | Foam armor, patterns, techniques | Practical, no-nonsense tutorials. Great for beginners. |
-| [Kinpatsu Cosplay](https://www.youtube.com/@KinpatsuCosplay) | Wigs, fabric, armor, full builds | Versatile. Covers sewing, wig styling, and armor equally well. |
-| [Odin Makes](https://www.youtube.com/@OdinMakes) | Simple builds with basic tools | Shows you what's possible without expensive equipment. |
-| [Lightning Cosplay](https://www.youtube.com/@LightningCosplay) | LED integration, electronics | Best channel for learning cosplay electronics. |
-| [Cowbutt Crunchies Cosplay](https://www.youtube.com/@CowbuttCrunchies) | Sewing, patterning, bodysuits | Excellent for sewn costume construction and draping. |
-| [Dangerous Ladies](https://www.youtube.com/@DangerousLadies) | Sewn costumes, historical garments | Deep sewing technique focused on costume accuracy. |
+| | Channel | Focus | Why it's good |
+|---|---------|-------|--------------|
+| <img src="assets/logos/kamui.png" width="20" height="20"> | [Kamui Cosplay](https://www.youtube.com/@KamuiCos) | EVA foam armor, thermoplastics | The most thorough foam tutorials. Clear, well-produced, decades of experience. |
+| <img src="assets/logos/punished-props.png" width="20" height="20"> | [Punished Props Academy](https://www.youtube.com/@PunishedProps) | Props, foam, 3D printing, resin | Covers everything. Good for prop-specific builds. |
+| | [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) | Foam armor, patterns, techniques | Practical, no-nonsense tutorials. Great for beginners. |
+| | [Kinpatsu Cosplay](https://www.youtube.com/@KinpatsuCosplay) | Wigs, fabric, armor, full builds | Versatile. Covers sewing, wig styling, and armor equally well. |
+| | [Odin Makes](https://www.youtube.com/@OdinMakes) | Simple builds with basic tools | Shows you what's possible without expensive equipment. |
+| | [Lightning Cosplay](https://www.youtube.com/@LightningCosplay) | LED integration, electronics | Best channel for learning cosplay electronics. |
+| | [Cowbutt Crunchies Cosplay](https://www.youtube.com/@CowbuttCrunchies) | Sewing, patterning, bodysuits | Excellent for sewn costume construction and draping. |
+| | [Dangerous Ladies](https://www.youtube.com/@DangerousLadies) | Sewn costumes, historical garments | Deep sewing technique focused on costume accuracy. |
 
 ### Books
 
@@ -322,7 +328,7 @@ Sewn construction is half of most cosplays and deserves as much attention as arm
 
 - [r/cosplay](https://www.reddit.com/r/cosplay/) - General cosplay subreddit. Good for feedback and WIP sharing.
 - [r/cosplayprops](https://www.reddit.com/r/cosplayprops/) - Prop-specific community. Technical discussion.
-- [The RPF](https://www.therpf.com/) - The Replica Prop Forum. Deep technical discussion, screen-accurate builds, experienced builders.
+- <img src="assets/logos/the-rpf.png" width="18" height="18"> [The RPF](https://www.therpf.com/) - The Replica Prop Forum. Deep technical discussion, screen-accurate builds, experienced builders.
 - [Cosplay.com forums](https://www.cosplay.com/) - One of the oldest cosplay communities. Character-specific threads.
 
 ---
@@ -396,23 +402,51 @@ If you make costumes for others, price these factors:
 - [Beetlecat Originals commission terms](https://www.beetlecatoriginals.com/commissions) - Real-world example of professional commission pricing, timelines, and workflow from a fursuit maker.
 - [Etsy seller fees breakdown](https://www.etsy.com/legal/fees/) - Understand the ~13% total take before pricing on Etsy.
 
-### Planning Tools
+### Planning Tools Comparison
 
-**Cosplay-specific:**
+<p align="center"><img src="assets/divider-scissors.svg" alt="" width="500"></p>
 
-- [Cosplai](https://cosplai.me) - Mobile cosplay planner with budget tracking and convention discovery. iOS/Android. Free for 10 projects.
-- [Cosplan](https://cosplan.app/) - Social-first cosplay planner with 25,000+ users. Community feed, event discovery, photoshoot logging.
-- [Cosgear](https://app.cosgear.co/) - Completely free cosplay planner with tutorials, build guides, and unlimited storage.
-- [Cosflowy](https://cosflowy.com) - Web-based planner organized by workflow elements. Good for step-by-step thinkers.
-- [Costumary](https://www.costumary.com) - Reference boards, materials tracking, budget, timeline, build log, and AI build assistant. Free for 2 projects.
+**Cosplay-specific planners:**
+
+| | Tool | Focus | Free Tier | Best for |
+|---|------|-------|-----------|----------|
+| <img src="assets/logos/cosplai.png" width="22" height="22"> | [Cosplai](https://cosplai.me) | Mobile planner | 10 projects | Budget tracking and convention discovery on the go |
+| <img src="assets/logos/cosplan.png" width="22" height="22"> | [Cosplan](https://cosplan.app/) | Social planner | Unlimited | Community feed, event discovery, photoshoot logging (25k+ users) |
+| <img src="assets/logos/cosgear.png" width="22" height="22"> | [Cosgear](https://app.cosgear.co/) | Free planner | Unlimited | Tutorials, build guides, and unlimited storage |
+| <img src="assets/logos/cosflowy.png" width="22" height="22"> | [Cosflowy](https://cosflowy.com) | Workflow planner | Yes | Step-by-step workflow organization |
+| | [Costumary](https://www.costumary.com) | Build workspace | 2 projects | Reference boards, materials, budget, timeline, build log, AI assistant |
 
 **General tools cosplayers use:**
 
-- [Notion](https://www.notion.so) - Flexible workspace. Cosplay planner templates available on Etsy ($5-15). Powerful but requires setup time.
-- [Trello](https://trello.com) - Kanban boards. Good for group cosplay coordination and task tracking. Free.
-- [Milanote](https://milanote.com) - Visual mood boards. Best-in-class reference organization, but free tier caps at 100 cards.
-- [Google Sheets](https://sheets.google.com) - The most common cosplay budget tracker. Free, flexible, not pretty.
-- [Pinterest](https://www.pinterest.com) - Reference and inspiration collection. Every cosplayer uses it, but it's not a planner.
+| | Tool | Focus | Free Tier | Best for |
+|---|------|-------|-----------|----------|
+| <img src="assets/logos/notion.png" width="22" height="22"> | [Notion](https://www.notion.so) | Flexible workspace | Yes | Custom setups with cosplay templates from Etsy ($5-15) |
+| <img src="assets/logos/trello.png" width="22" height="22"> | [Trello](https://trello.com) | Kanban boards | Yes | Group cosplay coordination and task tracking |
+| <img src="assets/logos/milanote.png" width="22" height="22"> | [Milanote](https://milanote.com) | Visual boards | 100 cards | Best-in-class reference and mood board organization |
+| | [Google Sheets](https://sheets.google.com) | Spreadsheets | Yes | The most common cosplay budget tracker. Flexible, not pretty. |
+| | [Pinterest](https://www.pinterest.com) | Image boards | Yes | Reference and inspiration collection. Not a planner. |
+
+### Craft and Hobby Tools
+
+Tools for tracking materials, patterns, measurements, paints, and build progress across craft hobbies.
+
+| | Tool | What it does | Free? |
+|---|------|-------------|-------|
+| <img src="assets/logos/threadloop.png" width="22" height="22"> | [ThreadLoop](https://threadloop.app/) | Sewing project planner with fabric/pattern stash tracking and 98k+ community pattern database | Yes |
+| <img src="assets/logos/sewist.png" width="22" height="22"> | [Sewist](https://www.sewist.com/) | Online CAD for drafting made-to-measure sewing patterns with mix-and-match garment designer | Yes |
+| <img src="assets/logos/my-body-model.png" width="22" height="22"> | [My Body Model](https://www.mybodymodel.com/) | Custom fashion croquis from your real measurements for planning costume designs | Free preview |
+| <img src="assets/logos/stash-hub.png" width="22" height="22"> | [Stash Hub](https://stashhubapp.com/) | Sewing stash organizer for fabrics, patterns, notions, and measurements | Yes |
+| <img src="assets/logos/pile-of-potential.png" width="22" height="22"> | [Pile of Potential](https://pileofpotential.com/) | Tracks your miniature/model backlog with build, prime, paint, and base progress stages | Yes |
+| <img src="assets/logos/paintrack.png" width="22" height="22"> | [paintRack](https://www.courageousoctopus.com/) | Paint collection tracker with 27k+ paints, barcode scanning, and cross-brand color matching | Yes |
+| <img src="assets/logos/hobby-streak.png" width="22" height="22"> | [Hobby Streak](http://www.hobbystreak.com/) | Habit tracker that gamifies build consistency with daily streaks | Yes |
+| <img src="assets/logos/patterned.png" width="22" height="22"> | [Patterned](https://www.patterned.app/) | Digital sewing pattern library and organization | Yes |
+
+**Model and reference databases:**
+
+| | Resource | What it covers |
+|---|----------|---------------|
+| <img src="assets/logos/dalong.png" width="22" height="22"> | [Dalong.net](https://www.dalong.net/) | Pictorial reviews of nearly every Gunpla kit: runner shots, manual scans, unmodified builds |
+| <img src="assets/logos/gunpladb.png" width="22" height="22"> | [GunplaDB](https://gunpladb.com/) | Searchable Gundam model kit database by grade, scale, series, and price |
 
 ---
 
@@ -435,6 +469,8 @@ Real cost breakdowns from various sources:
 ---
 
 ## Contributing
+
+<p align="center"><img src="assets/pin-cushion.svg" alt="" width="80"></p>
 
 Found a broken link? Know a supplier we're missing? Built something with a material we haven't listed?
 

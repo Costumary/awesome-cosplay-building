@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="800" height="50">
+  <style>
+    @keyframes stitch {
+      from { stroke-dashoffset: 600; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes needle-travel {
+      0% { opacity: 0; transform: translateX(-200px); }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { opacity: 0; transform: translateX(200px); }
+    }
+    .thread {
+      stroke: #B65F72;
+      stroke-dasharray: 12 8;
+      stroke-dashoffset: 600;
+      animation: stitch 4s ease-in-out forwards;
+    }
+    .needle {
+      animation: needle-travel 4s ease-in-out forwards;
+    }
+    .needle-body { stroke: #8D8178; }
+    .needle-eye { stroke: #8D8178; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .thread { stroke: #D4899A; }
+      .needle-body { stroke: #B0A79E; }
+      .needle-eye { stroke: #B0A79E; }
+    }
+  </style>
+
+  <path class="thread" d="M 50 25 Q 150 10, 250 25 Q 350 40, 450 25 Q 550 10, 650 25 Q 720 35, 760 25"
+        fill="none" stroke-width="2" stroke-linecap="round"/>
+
+  <g class="needle">
+    <line class="needle-body" x1="755" y1="25" x2="785" y2="25" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse class="needle-eye" cx="781" cy="25" rx="2.5" ry="3.5" stroke-width="1.5"/>
+  </g>
+</svg>
