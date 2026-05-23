@@ -49,6 +49,7 @@ This isn't a generic link collection. Every item here has been used, tested, or 
   - [Planning Tools Comparison](#planning-tools-comparison)
   - [Craft and Hobby Tools](#craft-and-hobby-tools)
 - [Cost References](#cost-references)
+- [Sources](#sources)
 - [Contributing](#contributing)
 
 ---
@@ -469,6 +470,27 @@ Real cost breakdowns from various sources:
 | [Commission Pricing Guide](https://www.costumary.com/blog/commission-pricing-guide) | Costumary | How to price your work without losing money |
 | [Cosplay Commission Cost Estimator](https://coscove.com/blog/estimate-cosplay-commission-cost) | Coscove | Commission pricing from the buyer's perspective |
 | [RPF Commission Pricing Thread](https://www.therpf.com/forums/threads/commission-work-and-pricing.286635/) | The RPF | Community discussion on real commission rates and structures |
+
+---
+
+## Sources
+
+Every link in this list has been verified active. Here are the 10 foundational sources that cosplay builders reference most:
+
+| Source | Category | Why it matters |
+|--------|----------|----------------|
+| [Kamui Cosplay](https://www.kamuicosplay.com/books/) | Learning | The most thorough EVA foam and thermoplastic tutorials anywhere. Books, YouTube, Patreon. |
+| [TNT Cosplay Supply](https://www.tntcosplaysupply.com) | Supplier | The community standard for cosplay-grade EVA foam. Multiple thicknesses and colors. |
+| [Worbla](https://www.worbla.com) | Supplier | The standard thermoplastic for cosplay armor. Self-adhesive when heated. |
+| [Smooth-On](https://www.smooth-on.com) | Supplier | Industry standard for silicone molds, casting resin, and XTC-3D print coating. |
+| [Punished Props Academy](https://www.punishedprops.com/shop/) | Learning | Courses and tutorials covering foam, 3D printing, resin, and finishing. |
+| [The RPF](https://www.therpf.com/) | Community | The Replica Prop Forum. Deepest technical discussion for screen-accurate builds. |
+| [Rosco FlexBond](https://us.rosco.com/en/product/flexbond) | Product | The community favorite foam primer. Flexible, sandable, and affordable. |
+| [Adafruit](https://www.adafruit.com) | Supplier | NeoPixels, EL wire, and electronics for cosplay lighting and effects. |
+| [JOANN Fabrics](https://www.joann.com) | Supplier | Fabric, interfacing, thread, notions. The 40-60% off coupons are always running. |
+| [Kamui Cosplay cost breakdown](https://www.kamuicosplay.com/2018/12/12/cosplaycost/) | Reference | Real project cost breakdowns from a professional builder. |
+
+**[View all 100+ verified sources &rarr;](https://costumary.github.io/awesome-cosplay-building/SOURCES)**
 
 ---
 

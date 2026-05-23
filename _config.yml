@@ -17,6 +17,5 @@ defaults:
       layout: default
 
 exclude:
-  - SOURCES.md
   - LICENSE
   - CONTRIBUTING.md

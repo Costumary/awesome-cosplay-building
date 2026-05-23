@@ -1,6 +1,12 @@
+---
+title: All Verified Sources
+---
+
 # Sources
 
 Every link in this repo comes from a verifiable source. This file documents where information was gathered and which products, suppliers, and resources have been confirmed active.
+
+**[&larr; Back to the main list]({{ '/' | relative_url }})**
 
 ## Material Suppliers (verified active)
 
