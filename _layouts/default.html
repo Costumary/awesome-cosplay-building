@@ -8,6 +8,9 @@
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="robots" content="index, follow">
+  <link rel="author" href="https://www.costumary.com">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
 
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ site.description }}">
@@ -26,6 +29,15 @@
     "name": "{{ site.title }}",
     "description": "{{ site.description }}",
     "url": "{{ page.url | absolute_url }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Costumary",
+      "url": "https://www.costumary.com",
+      "sameAs": [
+        "https://github.com/Costumary",
+        "https://www.costumary.com"
+      ]
+    },
     "mainEntity": {
       "@type": "ItemList",
       "name": "Cosplay Building Resources",
