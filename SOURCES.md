@@ -23,6 +23,9 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Cosclay | https://www.cosclay.com | Yes |
 | Smooth-On | https://www.smooth-on.com | Yes |
 | Aves Studio (Apoxie Sculpt) | https://avesstudio.com | Yes |
+| Cosplay Supplies Inc (Sintra) | https://cosplaysupplies.com | Yes |
+| Curbell Plastics (Sintra/PVC) | https://www.curbellplastics.com | Yes |
+| Foam Mart (L200/Plastazote) | https://foammart.com | Yes |
 
 ## Adhesives and Primers (verified active)
 
@@ -37,6 +40,18 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | XTC-3D (Smooth-On) | https://www.smooth-on.com/products/xtc-3d/ | Yes |
 | Rub 'n Buff (AMACO) | https://shop.amaco.com/mixed-media/metallic-finishes/rub-n-buff/ | Yes |
 | Krylon | https://www.krylon.com | Yes |
+| BSI UN-CURE (CA debonder) | https://bsi-inc.com/hobby/un_cure.html | Yes |
+
+## Prosthetics and Body Paint (verified active)
+
+| Product | URL | Verified |
+|---------|-----|----------|
+| Aradani Costumes | https://www.aradanicostumes.com/ | Yes |
+| MostlyDead | https://www.mostlydead.com/ | Yes |
+| CFX Composite Effects | https://compositeeffects.com/ | Yes |
+| Mehron Paradise AQ | https://www.mehron.com/paradise-makeup-aq/ | Yes |
+| Kryolan Aquacolor | https://www.kryolan.com | Yes |
+| Skin Tite (Smooth-On) | https://www.smooth-on.com/products/skin-tite/ | Yes |
 
 ## Wig Suppliers (verified active)
 
@@ -64,6 +79,15 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | The Foam Cave | Australia | https://thefoamcave.com.au | Yes |
 | Cosplay Supplies Australia | Australia | https://cosplaysupplies.com.au | Yes |
 | Kanten Cosplay | Canada | https://kantencosplay.ca | Yes |
+| HobbyLink Japan | Japan | https://www.hlj.com/ | Yes |
+
+## Safety Gear (verified active)
+
+| Product | URL | Verified |
+|---------|-----|----------|
+| 3M 6200 Respirator | https://www.3m.com/3M/en_US/p/d/b00039327/ | Yes |
+| GVS Elipse P100 | https://www.gvs.com/en/catalog/elipse-p100-niosh-respirator | Yes |
+| DEWALT DPG82-11 Goggles | https://www.radians.com/products/composite-dewalt-dpg82-concealer-safety-goggle | Yes |
 
 ## Tools (verified active)
 
@@ -73,6 +97,16 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Dremel | https://www.dremel.com | Yes |
 | Pepakura Designer | https://pepakura.tamasoft.co.jp/pepakura_designer/ | Yes |
 | Adafruit (NeoPixels, EL wire) | https://www.adafruit.com | Yes |
+| Armorsmith Designer | https://thearmoredgarage.gumroad.com/l/LMdGL | Yes |
+
+## Strapping and Hardware (verified active)
+
+| Product | URL | Verified |
+|---------|-----|----------|
+| CraftCosplay Fit Kit | https://craftcosplay.com/product/cosplay-fit-kit/ | Yes |
+| Strapworks | https://strapworks.com | Yes |
+| K&J Magnetics | https://www.kjmagnetics.com | Yes |
+| ThermApparel (cooling vests) | https://www.thermapparel.com | Yes |
 
 ## Learning Resources (verified active)
 
@@ -97,10 +131,33 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Community | URL | Verified |
 |-----------|-----|----------|
 | r/cosplay | https://www.reddit.com/r/cosplay/ | Yes |
+| r/cosplayers | https://www.reddit.com/r/cosplayers/ | Yes |
 | r/cosplayprops | https://www.reddit.com/r/cosplayprops/ | Yes |
+| r/foamsmith | https://www.reddit.com/r/foamsmith/ | Yes |
+| r/EVAfoam | https://www.reddit.com/r/EVAfoam/ | Yes |
 | r/sewing | https://www.reddit.com/r/sewing/ | Yes |
+| r/3Dprinting | https://www.reddit.com/r/3Dprinting/ | Yes |
 | The RPF | https://www.therpf.com/ | Yes |
+| 405th Infantry Division | https://www.405th.com/ | Yes |
 | Cosplay.com | https://www.cosplay.com/ | Yes |
+| Cosplay Connect (Discord) | https://discord.com/invite/cosplay-connect-744628487481982976 | Yes |
+
+## Marketplaces (verified active)
+
+| Marketplace | URL | Verified |
+|-------------|-----|----------|
+| Coscove | https://coscove.com/ | Yes |
+| Lumikha Cosplay Resale | https://lumikhacosplay.com/ | Yes |
+| Ko-fi (creator platform) | https://ko-fi.com/ | Yes |
+| Carrd (portfolio builder) | https://carrd.co | Yes |
+
+## Convention Databases (verified active)
+
+| Database | URL | Verified |
+|----------|-----|----------|
+| FanCons.com | https://fancons.com/ | Yes |
+| AnimeCons.com | https://animecons.com/ | Yes |
+| UpcomingCons.com | https://upcomingcons.com/ | Yes |
 
 ## Planning Tools (verified active)
 
@@ -125,6 +182,7 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Pile of Potential | https://pileofpotential.com/ | Yes |
 | paintRack | https://www.courageousoctopus.com/ | Yes |
 | Hobby Streak | http://www.hobbystreak.com/ | Yes |
+| Patterned | https://www.patterned.app/ | Yes |
 | Dalong.net | https://www.dalong.net/ | Yes |
 | GunplaDB | https://gunpladb.com/ | Yes |
 | HobbyLink Japan | https://www.hlj.com/ | Yes |
@@ -141,6 +199,8 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Beetlecat Originals commission terms | https://www.beetlecatoriginals.com/commissions | Example | Yes |
 | Etsy seller fees | https://www.etsy.com/legal/fees/ | Documentation | Yes |
 | CosplayTutorial packing checklist | https://www.cosplaytutorial.com/tools/checklist.php | Tool | Yes |
+| Midnight Pumpkin Survival Kit | https://midnightpumpkinblog.com/2025/01/10/cosplay-convention-survival-kit-essentials-for-your-travel-bag/ | Blog post | Yes |
+| TSA weapons policy | https://www.tsa.gov/travel/security-screening/whatcanibring/items/toy-guns-and-weapons | Government | Yes |
 
 ## Pattern Sources (verified active)
 
@@ -153,6 +213,12 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Closet Core Patterns | https://closetcorepatterns.com/ | Yes |
 | Kinpatsu Cosplay patterns | https://kinpatsucosplay.com/ | Yes |
 | Mood Sewciety (free patterns) | https://www.moodfabrics.com/blog/ | Yes |
+
+## Fabric Modification (verified active)
+
+| Product | URL | Verified |
+|---------|-----|----------|
+| Dharma Procion MX Dyes | https://www.dharmatrading.com/dyes/dharma-fiber-reactive-procion-dyes.html | Yes |
 
 ## 3D Print File Sources (verified active)
 
