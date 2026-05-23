@@ -456,4 +456,4 @@ This work is dedicated to the public domain under CC0 1.0. Use it however you wa
 
 ---
 
-**Maintained by [Costumary](https://www.costumary.com)**, the craft build journal for serious makers. References, materials, budgets, timelines, and build logs in one workspace.
+<sub>Maintained by [Costumary](https://www.costumary.com)</sub>
