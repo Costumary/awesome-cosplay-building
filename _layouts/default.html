@@ -25,26 +25,82 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "{{ site.title }}",
-    "description": "{{ site.description }}",
-    "url": "{{ page.url | absolute_url }}",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Costumary",
-      "url": "https://www.costumary.com",
-      "sameAs": [
-        "https://github.com/Costumary",
-        "https://www.costumary.com"
-      ]
-    },
-    "mainEntity": {
-      "@type": "ItemList",
-      "name": "Cosplay Building Resources",
-      "description": "Curated materials, suppliers, tools, techniques, and planning resources for cosplay builders",
-      "itemListOrder": "https://schema.org/ItemListUnordered",
-      "numberOfItems": 200
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ page.url | absolute_url }}",
+        "inLanguage": "en-US",
+        "dateModified": "2026-05-25",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Costumary",
+          "url": "https://www.costumary.com",
+          "sameAs": [
+            "https://github.com/Costumary",
+            "https://www.costumary.com"
+          ]
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "name": "Cosplay Building Resources",
+          "description": "Curated materials, suppliers, tools, techniques, and planning resources for cosplay builders",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "numberOfItems": 200
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Costumary",
+          "url": "https://www.costumary.com"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What materials do I need for my first cosplay?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EVA foam sheets (6mm for armor panels, 2mm for details), contact cement (Barge or DAP Weldwood), a craft knife, FlexBond primer, and acrylic paint. Total starter materials cost: $30-60. Harbor Freight anti-fatigue mats work as budget foam."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a cosplay cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Closet cosplay: $0-30. Simple sewn costume: $50-120. EVA foam armor set: $80-200. Full sewn and armor build: $150-400. Competition-grade: $300-800+. Hidden costs (paint, primer, adhesives, shipping) add $50-100."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools do I need for cosplay?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A starter kit ($50-80) covers most first builds: craft knife with snap-off blades, self-healing cutting mat (18x24 inches), heat gun (Wagner HT1000), contact cement, sandpaper (120 and 220 grit), and FlexBond primer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a respirator for cosplay building?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, for contact cement, spray paint, and resin work. A 3M 6200 half-face respirator ($15-25) with OV/P100 combo cartridges ($37/pair) covers all common cosplay chemicals. Brush-on acrylic paint and FlexBond only need an open window."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do cosplayers buy materials?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TNT Cosplay Supply and SKS Props for cosplay-grade foam. Harbor Freight and Home Depot for budget foam and tools. Mood Fabrics and JOANN for fabric. Arda Wigs and Epic Cosplay for wigs. Adafruit for LEDs and electronics."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 
