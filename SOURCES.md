@@ -74,11 +74,11 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Supplier | Region | URL | Verified |
 |----------|--------|-----|----------|
 | Coscraft | UK | https://www.coscraft.co.uk | Yes |
-| MBFGCreative | UK | https://www.mbfgcreative.co.uk | Yes |
 | CosplayShop.be | EU (Belgium) | https://www.cosplayshop.be | Yes |
-| The Foam Cave | Australia | https://thefoamcave.com.au | Yes |
-| Cosplay Supplies Australia | Australia | https://cosplaysupplies.com.au | Yes |
-| Kanten Cosplay | Canada | https://kantencosplay.ca | Yes |
+| Lumin's Workshop | Australia | https://www.luminsworkshop.com | Yes |
+| PlayByProxy | Australia | https://playbyproxy.com | Yes |
+| Sculpture Supply Canada | Canada | https://sculpturesupply.com | Yes |
+| True North Cosplay | Canada | https://truenorthcosplay.com | Yes |
 | HobbyLink Japan | Japan | https://www.hlj.com/ | Yes |
 
 ## Safety Gear (verified active)
@@ -113,10 +113,10 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Resource | URL | Type | Verified |
 |----------|-----|------|----------|
 | Kamui Cosplay books/tutorials | https://www.kamuicosplay.com/books/ | Tutorials, books | Yes |
-| Kamui Cosplay YouTube | https://www.youtube.com/@KamuiCos | Video | Yes |
+| Kamui Cosplay YouTube | https://www.youtube.com/kamuicosplayofficial | Video | Yes |
 | Punished Props Academy | https://www.youtube.com/@PunishedProps | Video | Yes |
 | Punished Props shop/courses | https://www.punishedprops.com/shop/ | Courses | Yes |
-| Evil Ted Smith YouTube | https://www.youtube.com/@eviltedsmiththingiverse | Video | Yes |
+| Evil Ted Smith YouTube | https://www.youtube.com/@EvilTedSmith | Video | Yes |
 | Kinpatsu Cosplay YouTube | https://www.youtube.com/@KinpatsuCosplay | Video | Yes |
 | Odin Makes YouTube | https://www.youtube.com/@OdinMakes | Video | Yes |
 | Lightning Cosplay YouTube | https://www.youtube.com/@LightningCosplay | Video | Yes |
@@ -165,7 +165,6 @@ Every link in this repo comes from a verifiable source. This file documents wher
 |------|-----|----------|
 | Cosplai | https://cosplai.me | Yes |
 | Cosplan | https://cosplan.app/ | Yes |
-| Cosgear | https://app.cosgear.co/ | Yes |
 | Cosflowy | https://cosflowy.com | Yes |
 | Costumary | https://www.costumary.com | Yes |
 | CostumeCalc | https://www.costumecalc.com/ | Yes |
@@ -181,8 +180,6 @@ Every link in this repo comes from a verifiable source. This file documents wher
 | Stash Hub | https://stashhubapp.com/ | Yes |
 | Pile of Potential | https://pileofpotential.com/ | Yes |
 | paintRack | https://www.courageousoctopus.com/ | Yes |
-| Hobby Streak | http://www.hobbystreak.com/ | Yes |
-| Patterned | https://www.patterned.app/ | Yes |
 | Dalong.net | https://www.dalong.net/ | Yes |
 | GunplaDB | https://gunpladb.com/ | Yes |
 | HobbyLink Japan | https://www.hlj.com/ | Yes |
@@ -191,12 +188,12 @@ Every link in this repo comes from a verifiable source. This file documents wher
 
 | Source | URL | Type | Verified |
 |--------|-----|------|----------|
-| Kamui Cosplay cost breakdown | https://www.kamuicosplay.com/2018/12/12/cosplaycost/ | Blog post | Yes |
-| Statista cosplay spending survey | https://www.statista.com/statistics/1135830/money-spent-cosplay-per-costume/ | Data | Yes |
+| Senpai Cosplay Blog cost breakdown | https://rogersenpai.com/how-to-afford-cosplaying-without-going-broke-part-ii-2/ | Blog post | Yes |
+| AnthonyThomas cosplay spending survey | https://blog.anthonythomas.com/cosplay-makers-how-much-they-spend-on-costumes-and-why | Data | Yes |
 | Punished Props materials guide | https://www.punishedprops.com/foamsmith-tools-and-materials/ | Guide | Yes |
 | Coscove commission estimator | https://coscove.com/blog/estimate-cosplay-commission-cost | Blog post | Yes |
 | RPF commission pricing thread | https://www.therpf.com/forums/threads/commission-work-and-pricing.286635/ | Forum | Yes |
-| Beetlecat Originals commission terms | https://www.beetlecatoriginals.com/commissions | Example | Yes |
+| Don't Hug Cacti commission info | https://donthugcacti.com/commission-info/ | Example | Yes |
 | Etsy seller fees | https://www.etsy.com/legal/fees/ | Documentation | Yes |
 | CosplayTutorial packing checklist | https://www.cosplaytutorial.com/tools/checklist.php | Tool | Yes |
 | Midnight Pumpkin Survival Kit | https://midnightpumpkinblog.com/2025/01/10/cosplay-convention-survival-kit-essentials-for-your-travel-bag/ | Blog post | Yes |

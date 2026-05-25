@@ -147,7 +147,7 @@ Foam absorbs paint. You must seal it first or your paint job will look terrible.
 - [Rosco FlexBond](https://us.rosco.com/en/product/flexbond) - The community favorite foam primer. Flexible, sandable, 3-4 thin coats. ~$14/bottle, covers multiple builds.
 - [Plasti Dip](https://plastidip.com) - Rubberized spray coating. Quick to apply, decent flexibility. Can obscure fine details if applied too thick. ~$8-12/can.
 - [Mod Podge](https://plaidonline.com/brands/mod-podge) - Budget sealer. Works in a pinch but less flexible than FlexBond. Not ideal for armor that needs to flex. ~$5-8.
-- [Kwik Seal caulk](https://www.dap.com/products-projects/our-brands/kwik-seal/) - Silicone caulk thinned with water. Budget primer option. Apply thin coats. ~$5.
+- [Kwik Seal caulk](https://www.dap.com/products-projects/product-categories/caulks-sealants/latex/kwik-seal/) - Silicone caulk thinned with water. Budget primer option. Apply thin coats. ~$5.
 - [XTC-3D by Smooth-On](https://www.smooth-on.com/products/xtc-3d/) - Self-leveling epoxy for 3D prints. Fills layer lines. ~$25/kit.
 
 ### Paints and Finishes
@@ -241,11 +241,11 @@ For creature cosplay, alien skin, elf ears, horns, and full-body color.
 
 ### International Suppliers
 
-- **UK:** [Coscraft](https://www.coscraft.co.uk) (foam, Worbla, tools), [MBFGCreative](https://www.mbfgcreative.co.uk) (foam)
+- **UK:** [Coscraft](https://www.coscraft.co.uk) (foam, Worbla, tools)
 - **EU:** [Worbla.com](https://www.worbla.com) (direct), [CosplayShop.be](https://www.cosplayshop.be) (Belgium-based, ships EU-wide)
 - **Japan:** <img src="assets/logos/hlj.png" width="18" height="18"> [HobbyLink Japan](https://www.hlj.com/) (model kits, tools, supplies at Japanese domestic prices, ships to 220+ countries)
-- **Australia:** [The Foam Cave](https://thefoamcave.com.au), [Cosplay Supplies Australia](https://cosplaysupplies.com.au)
-- **Canada:** [Kanten Cosplay](https://kantencosplay.ca), [Cosplay Supplies Canada](https://cosplaysuppliescanada.ca)
+- **Australia:** [Lumin's Workshop AU](https://www.luminsworkshop.com) (EVA foam, Foam Clay, Worbla, tools), [PlayByProxy](https://playbyproxy.com) (foam, Worbla, electronics)
+- **Canada:** [Sculpture Supply Canada](https://sculpturesupply.com) (EVA foam, Worbla, Thibra, CosClay), [True North Cosplay](https://truenorthcosplay.com) (EVA foam, Foam Clay, tools)
 
 ---
 
@@ -407,7 +407,7 @@ For airbrushing and detail work, a portable spray booth ($80-120, dual-fan model
 
 **Learn from:**
 - [Kamui Cosplay](https://www.kamuicosplay.com/books/) - The best foam armor tutorials on the internet. Books and free YouTube videos.
-- [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) - Clear, practical foam tutorials. No fluff.
+- [Evil Ted Smith](https://www.youtube.com/@EvilTedSmith) - Clear, practical foam tutorials. No fluff.
 - [Punished Props Academy](https://www.youtube.com/@PunishedProps) - Prop building, foam, resin, 3D printing.
 
 ### Sewing for Costumes
@@ -640,9 +640,9 @@ Never use superglue, hot glue, or construction adhesives on skin.
 
 | | Channel | Focus | Why it's good |
 |---|---------|-------|--------------|
-| <img src="assets/logos/kamui.png" width="20" height="20"> | [Kamui Cosplay](https://www.youtube.com/@KamuiCos) | EVA foam armor, thermoplastics | The most thorough foam tutorials. Clear, well-produced, decades of experience. |
+| <img src="assets/logos/kamui.png" width="20" height="20"> | [Kamui Cosplay](https://www.youtube.com/kamuicosplayofficial) | EVA foam armor, thermoplastics | The most thorough foam tutorials. Clear, well-produced, decades of experience. |
 | <img src="assets/logos/punished-props.png" width="20" height="20"> | [Punished Props Academy](https://www.youtube.com/@PunishedProps) | Props, foam, 3D printing, resin | Covers everything. Good for prop-specific builds. |
-| | [Evil Ted Smith](https://www.youtube.com/@eviltedsmiththingiverse) | Foam armor, patterns, techniques | Practical, no-nonsense tutorials. Great for beginners. |
+| | [Evil Ted Smith](https://www.youtube.com/@EvilTedSmith) | Foam armor, patterns, techniques | Practical, no-nonsense tutorials. Great for beginners. |
 | | [Kinpatsu Cosplay](https://www.youtube.com/@KinpatsuCosplay) | Wigs, fabric, armor, full builds | Versatile. Covers sewing, wig styling, and armor equally well. |
 | | [Odin Makes](https://www.youtube.com/@OdinMakes) | Simple builds with basic tools | Shows you what's possible without expensive equipment. |
 | | [Lightning Cosplay](https://www.youtube.com/@LightningCosplay) | LED integration, electronics | Best channel for learning cosplay electronics. |
@@ -920,7 +920,7 @@ If you make costumes for others, price these factors:
 
 **Commission pricing resources:**
 - [Costumary Commission Calculator](https://www.costumary.com/tools/commission-calculator) - Input hours, materials, overhead, and platform fees to get a recommended price.
-- [Beetlecat Originals commission terms](https://www.beetlecatoriginals.com/commissions) - Real-world example of professional commission pricing, timelines, and workflow from a fursuit maker.
+- [Don't Hug Cacti commission info](https://donthugcacti.com/commission-info/) - Real-world pricing from an established fursuit studio: fullsuits from $7,995, partials from $6,495, with deposit structure, workflow, and 90-day warranty terms.
 - [Etsy seller fees breakdown](https://www.etsy.com/legal/fees/) - Understand the ~13% total take before pricing on Etsy.
 
 ### Planning Tools Comparison
@@ -933,9 +933,8 @@ If you make costumes for others, price these factors:
 |---|------|-------|-----------|----------|
 | <img src="assets/logos/cosplai.png" width="22" height="22"> | [Cosplai](https://cosplai.me) | Mobile planner | 10 projects | Budget tracking and convention discovery on the go |
 | <img src="assets/logos/cosplan.png" width="22" height="22"> | [Cosplan](https://cosplan.app/) | Social planner | Unlimited | Community feed, event discovery, photoshoot logging (25k+ users) |
-| <img src="assets/logos/cosgear.png" width="22" height="22"> | [Cosgear](https://app.cosgear.co/) | Free planner | Unlimited | Tutorials, build guides, and unlimited storage |
 | <img src="assets/logos/cosflowy.png" width="22" height="22"> | [Cosflowy](https://cosflowy.com) | Workflow planner | Yes | Step-by-step workflow organization |
-| <img src="assets/logos/costumary.png" width="22" height="22"> | [Costumary](https://www.costumary.com) | Build workspace | 2 projects | Reference boards, materials, budget, timeline, build log, AI assistant, convention calendar with ICS export |
+| <img src="assets/logos/costumary.png" width="22" height="22"> | [Costumary](https://www.costumary.com) | Build workspace | 2 projects | Reference boards, materials, budget, timeline, build log, convention calendar with ICS export |
 
 **General tools cosplayers use:**
 
@@ -959,8 +958,6 @@ Tools for tracking materials, patterns, measurements, paints, and build progress
 | <img src="assets/logos/stash-hub.png" width="22" height="22"> | [Stash Hub](https://stashhubapp.com/) | Sewing stash organizer for fabrics, patterns, notions, and measurements | Yes |
 | <img src="assets/logos/pile-of-potential.png" width="22" height="22"> | [Pile of Potential](https://pileofpotential.com/) | Tracks your miniature/model backlog with build, prime, paint, and base progress stages | Yes |
 | <img src="assets/logos/paintrack.png" width="22" height="22"> | [paintRack](https://www.courageousoctopus.com/) | Paint collection tracker with 27k+ paints, barcode scanning, and cross-brand color matching | Yes |
-| <img src="assets/logos/hobby-streak.png" width="22" height="22"> | [Hobby Streak](http://www.hobbystreak.com/) | Habit tracker that gamifies build consistency with daily streaks | Yes |
-| <img src="assets/logos/patterned.png" width="22" height="22"> | [Patterned](https://www.patterned.app/) | Digital sewing pattern library and organization | Yes |
 
 **Model and reference databases:**
 
@@ -977,8 +974,8 @@ Real cost breakdowns from various sources:
 
 | Guide | Source | Covers |
 |-------|--------|--------|
-| [How Much Does a Cosplay Cost?](https://www.kamuicosplay.com/2018/12/12/cosplaycost/) | Kamui Cosplay | Breakdown from a professional builder with real project numbers |
-| [Cosplay Spending Survey](https://www.statista.com/statistics/1135830/money-spent-cosplay-per-costume/) | Statista | Survey showing 32% of cosplayers spend $101-200 per costume |
+| [How Much Does Cosplay Cost? What You NEED To Know](https://rogersenpai.com/how-to-afford-cosplaying-without-going-broke-part-ii-2/) | The Senpai Cosplay Blog | Three itemized character builds ($55, $260, $500+) with line-by-line material costs |
+| [Cosplay Makers: How Much They Spend](https://blog.anthonythomas.com/cosplay-makers-how-much-they-spend-on-costumes-and-why) | AnthonyThomas.com | Analysis of community survey data: 32% spend $101-200, 70% spend $101-600 per costume |
 | [Punished Props Materials Guide](https://www.punishedprops.com/foamsmith-tools-and-materials/) | Punished Props | Foamsmith tools and materials with real product links and prices |
 | [EVA Foam Armor Cost](https://www.costumary.com/blog/eva-foam-armor-cost) | Costumary | Full armor set: $80-400+ depending on complexity |
 | [Cosplay Prop Cost](https://www.costumary.com/blog/cosplay-prop-cost) | Costumary | Props from simple to screen-accurate: $20-300+ |
@@ -1004,7 +1001,7 @@ Every link in this list has been verified active. Here are the 10 foundational s
 | [Rosco FlexBond](https://us.rosco.com/en/product/flexbond) | Product | The community favorite foam primer. Flexible, sandable, and affordable. |
 | [Adafruit](https://www.adafruit.com) | Supplier | NeoPixels, EL wire, and electronics for cosplay lighting and effects. |
 | [JOANN Fabrics](https://www.joann.com) | Supplier | Fabric, interfacing, thread, notions. The 40-60% off coupons are always running. |
-| [Kamui Cosplay cost breakdown](https://www.kamuicosplay.com/2018/12/12/cosplaycost/) | Reference | Real project cost breakdowns from a professional builder. |
+| [Cosplay cost breakdowns](https://rogersenpai.com/how-to-afford-cosplaying-without-going-broke-part-ii-2/) | Reference | Itemized cost breakdowns across three builds at different budget tiers. |
 
 **[View all 100+ verified sources &rarr;](https://costumary.github.io/awesome-cosplay-building/SOURCES)**
 
