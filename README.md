@@ -1003,7 +1003,7 @@ Every link in this list has been verified active. Here are the 10 foundational s
 | [JOANN Fabrics](https://www.joann.com) | Supplier | Fabric, interfacing, thread, notions. The 40-60% off coupons are always running. |
 | [Cosplay cost breakdowns](https://rogersenpai.com/how-to-afford-cosplaying-without-going-broke-part-ii-2/) | Reference | Itemized cost breakdowns across three builds at different budget tiers. |
 
-**[View all 100+ verified sources &rarr;](https://costumary.github.io/awesome-cosplay-building/SOURCES)**
+**[View all 100+ verified sources &rarr;](https://www.costumary.com/awesome-cosplay-building/SOURCES)**
 
 ---
 
