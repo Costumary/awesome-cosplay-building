@@ -478,6 +478,7 @@ Resin printers produce nearly invisible layer lines, making them perfect for med
 - [Cults3D](https://cults3d.com) - Free and paid, good search.
 - [Nikko Industries](https://www.nikkoindustries.com/) - Cosplay-specific 3D files. Pre-scaled to human proportions, pre-split for common print beds, designed for assembly. Individual files $4-30, full armor sets $80-120. Annual membership ($159/yr) pays for itself after 3+ helmets.
 - [Etsy](https://www.etsy.com) - Paid files from independent designers.
+- [PrintWhat](https://printwhat.app/) - Searches 39 model sites at once from a text description, free. If nothing fits, paid human search starts at $29 and custom models from $199 (USD starting prices), useful when you only have reference images of a prop.
 
 **Scaling:** Measure the body part, scale the model in your slicer. Always do a test print at 10% scale first. For precise armor scaling, [Armorsmith Designer](https://thearmoredgarage.gumroad.com/l/LMdGL) ($30) lets you create a 3D avatar with your exact measurements and snap armor parts onto it.
 
